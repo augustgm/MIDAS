@@ -397,7 +397,7 @@ def get_data(file_name):
 
 def load_data(file_path: str) -> pd.DataFrame:
     """Loads data from the given path."""
-    df = pd.read_csv(file_path)  # you need to set the index for each data type
+    df = pd.read_csv(file_path)
     df.set_index(df.iloc[:, 0], inplace=True)
     df.drop(df.columns[0], axis=1, inplace=True)
     return df
