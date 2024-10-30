@@ -5,22 +5,15 @@ library(tidyverse)
 library(ggplot2)
 library(ggpubr)
 
-`%ni%` = Negate(`%in%`)
-
-## define variables
-data_type = "nodes" # "nodes"
-
 ## read in model performance
 mod_perf = read.csv(header = T, stringsAsFactors = F, file = "GIN_model_performance.csv")
 mod_perf = mod_perf %>% filter(KNN == "KNN=50")
-
 
 ## read data type and biological categories annotations
 feat_categs = read.csv(header = T, stringsAsFactors = F, file = "GINinterpret/CategoriseFeatures.csv")
 
 ## define path stem 
 path_stem = "GINinterpret/permImp/"
-
 
 ## read in data
 file_vec = list.files(path_stem)
@@ -33,27 +26,9 @@ for (i in 1:length(file_vec)) {
 }
 rm(i, curr_df, file_vec)
 
-#### Analyse per individual feature ####
-head(perm_all)
-features = unique(perm_all$feature)
 
-## summary statistics for each feature
-perm_feat_agg = perm_all %>% 
-  group_by(feature) %>%
-  summarise(mean_perm_auc = mean(perm_roc_auc), 
-            med_perm_auc = median(perm_roc_auc), 
-            sd_perm_auc = sd(perm_roc_auc),
-            sem_perm_auc = sd(perm_roc_auc) / sqrt(n()),
-            mean_perm_loss = mean(bce_loss), 
-            med_perm_loss = median(bce_loss), 
-            sd_perm_loss = sd(bce_loss),
-            sem_perm_loss = sd(bce_loss) / sqrt(n())) %>%
-  mutate(upper_perm_auc = mean_perm_auc + sem_perm_auc,
-         lower_perm_auc = mean_perm_auc - sem_perm_auc,
-         upper_perm_loss = mean_perm_loss + sem_perm_loss,
-         lower_perm_loss = mean_perm_loss - sem_perm_loss) %>%
-  as.data.frame()
-
+## merge with feat categs
+perm_all = merge(x = feat_categs, y = perm_all, by = "feature", all = T)
 
 ### Define functions ###
 compute_perm_feat_imp = function(perm_res, true_perf=mod_perf[mod_perf$Set == "Train", "auc"]) {
