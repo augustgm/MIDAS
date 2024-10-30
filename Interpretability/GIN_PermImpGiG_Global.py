@@ -189,8 +189,7 @@ def calc_perm_edge_imp(train_idx=None, test_idx=None, fold_id=None, xx=None, yy=
     for curr_seed in range(seed_to_start_from, end):
         # Perform degree-preserving edge permutation - edge_list must be list[Tuple[int, int]]
         perm_edges, perm_stats = xswap.permute_edge_list(edge_list=true_net, seed=curr_seed,
-                                                         allow_self_loops=False, allow_antiparallel=False, 
-                                                         multiplier=100)  # no. swaps attempted = multiplier* edge no.
+                                                         allow_self_loops=False, allow_antiparallel=False, multiplier=100)
 
         # Convert perm_edges (list of tuples) to a tensor
         perm_edges = torch.tensor(perm_edges, dtype=torch.long).t()
