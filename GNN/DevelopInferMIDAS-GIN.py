@@ -421,7 +421,7 @@ def main():
         #######################################################################################################
         # Load the network (mKNN+mst or scinet)
         #######################################################################################################
-        # Read in edge list for desired hetionet graph (contains unique edges - each is counted once)
+        # Read in edge list for desired hetionet graph
         with open(f"{DATABASE_PATH}/hetionet_graph/{hetio_graph}_HGNC.pkl", "rb") as f:
             edge_list = pickle.load(f)
 
