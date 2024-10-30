@@ -1,0 +1,81 @@
+feature,data_type,bio_category
+neg_hsmel,CRISPR,CRISPR
+pos_hsmel,CRISPR,CRISPR
+neg_4T1,CRISPR,CRISPR
+pos_4T1,CRISPR,CRISPR
+neg_B16,CRISPR,CRISPR
+pos_B16,CRISPR,CRISPR
+neg_CT26,CRISPR,CRISPR
+pos_CT26,CRISPR,CRISPR
+neg_EMT6,CRISPR,CRISPR
+pos_EMT6,CRISPR,CRISPR
+neg_MC38,CRISPR,CRISPR
+pos_MC38,CRISPR,CRISPR
+neg_Renca,CRISPR,CRISPR
+pos_Renca,CRISPR,CRISPR
+autoim,gSNP,autoimmunity
+blood counts,gSNP,gSNP
+cytokine,gSNP,gSNP
+pep05_corr,HLA-pep,HLA-pep
+autoim_rheum_edges,GaD,autoimmunity
+GrG_degree_centrality,GRN,GRN
+median_exp_NR,BulkRNAseq,BulkRNAseq
+median_exp_R,BulkRNAseq,BulkRNAseq
+median_logR_NR,CNA,CNA
+median_logR_R,CNA,CNA
+norm_count_NR,Mutation,Mutation
+norm_count_R,Mutation,Mutation
+cDC2_CD207+_topo_spec,DCs,DCs
+cDC2_CD1C+_A_topo_spec,DCs,DCs functional
+cDC2_HSP+_topo_spec,DCs,DCs
+STMN1+_DC_topo_spec,DCs,DCs
+cDC2_S100B+_topo_spec,DCs,DCs -veMANA
+CCR7+_DC_topo_spec,DCs,DCs mature
+cDC2_CD1C+_B_topo_spec,DCs,DCs dysfunctional
+cDC2_CXCL9+_topo_spec,DCs,DCs functional
+AS_DC_topo_spec,DCs,DCs precursor
+pDC_topo_spec,DCs,DCs
+cDC2_ISG15+_topo_spec,DCs,DCs
+cDC2_C1Q+_topo_spec,DCs,DCs
+cDC1_topo_spec,DCs,DCs functional
+2S_LYVE1+_Mac_topo_spec,Macrophage,Immunosuppressive mac
+12_MetThio_Mac_topo_spec,Macrophage,Anti-tumour mac
+8W_SPP1+_AREG+_Mac_topo_spec,Macrophage,Macrophage
+18_FCN1+_VCAN1+_topo_spec,Macrophage,Macrophage
+14_FOLR2+_M2_TAM_2_topo_spec,Macrophage,Immunosuppressive mac
+11_IFN_TAM_ISG15+_topo_spec,Macrophage,Anti-tumour mac
+2N_FOLR2+_M2_TAM_topo_spec,Macrophage,Immunosuppressive mac
+13S_Prolif_TAM_SPP1+_topo_spec,Macrophage,Macrophage
+1_APOE+_Lipid_TAM_topo_spec,Macrophage,Macrophage
+15_Stress_Gene_Mac_topo_spec,Macrophage,Macrophage
+6_FCER1A+_topo_spec,Macrophage,Macrophage
+4N_Angio_TAM_VCAN-_topo_spec,Macrophage,Immunosuppressive mac
+10_APOE+_FOLR2+_Mac_topo_spec,Macrophage,Immunosuppressive mac
+4S_Angio_Mac_VCAN+_topo_spec,Macrophage,Immunosuppressive mac
+3_SPP1+_SELENOP+_Mac_topo_spec,Macrophage,Macrophage
+8E_SPP1+_Mac_topo_spec,Macrophage,Macrophage
+19_ECMhi_TAM_topo_spec,Macrophage,Immunosuppressive mac
+7_IFN_TAM_MIG+_topo_spec,Macrophage,Anti-tumour mac
+13N_Prolif_TAM_SPP1-_topo_spec,Macrophage,Macrophage
+6_IGKC-high_Plasma-like_topo_spec,B/Plasma,B/Plasma
+1_Activated_Memory_B_topo_spec,B/Plasma,B/Plasma
+5_Atypical_Memory_B_topo_spec,B/Plasma,B/Plasma
+0_Resting_Memory_B_topo_spec,B/Plasma,B/Plasma
+4_Stressed_Plasma_topo_spec,B/Plasma,B/Plasma
+8_Transitional-Prolif_2_topo_spec,B/Plasma,B/Plasma
+2_Conventional_Plasma_topo_spec,B/Plasma,B/Plasma
+3_Naive_B_topo_spec,B/Plasma,B/Plasma
+9_MT1X-high_Plasma-like_topo_spec,B/Plasma,B/Plasma
+7_Transitional-Prolif_1_topo_spec,B/Plasma,B/Plasma
+CD4_CD8_Tstr_topo_spec,Tcell,Tcell
+CD4_Treg_topo_spec,Tcell,Treg
+CD8_Tem_topo_spec,Tcell,CD8 Tem
+CD8_GZMK_Tex_topo_spec,Tcell,CD8 Teff
+CD8_Teff_topo_spec,Tcell,CD8 Teff
+CD4 Tcm_topo_spec,Tcell,CD4 Tcm
+NK_like_T_topo_spec,Tcell,NK-like
+CD4_Th_topo_spec,Tcell,CD4 Th
+CD4_CD8_Tnaive_topo_spec,Tcell,T naïve
+CD4_CD8_Tisg_topo_spec,Tcell,Tcell
+CD4_CD8_terminal_Tex_topo_spec,Tcell,Terminal Tex
+CD4_CD8_Tpro_topo_spec,Tcell,T proliferating
