@@ -345,10 +345,6 @@ def main():
             train_idx = X_folds.index.get_indexer(train_genes)
             test_idx = X_folds.index.get_indexer(test_genes)
 
-            # Filtering out any -1s ; This shouldn't happen
-            train_idx = train_idx[train_idx != -1]
-            test_idx = test_idx[test_idx != -1]
-
             # Appending dictionary to args
             args.append(dict(train_idx=train_idx, test_idx=test_idx, fold_id=fold_id, xx=X_all_scaled, yy=y_all,
                              n_features=n_features, n_classes=n_classes, n_hidden=n_hidden, num_layers=num_layers,
