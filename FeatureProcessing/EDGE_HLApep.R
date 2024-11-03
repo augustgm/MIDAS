@@ -47,7 +47,7 @@ rna_sum_melt = merge(x = rna_sum_melt,
                                                                   "Tissue Type", "Tissue Specimen Type", "Tumor Subtype")]), 
                      by = "paper_sample_id")
 
-## Compute spearman correlation
+## Compute correlation
 exp_hla_corr = rna_sum_melt %>%
   group_by(gene_id_pure) %>%
   summarise(pep01_corr = cor(peptides_q01, exp),
