@@ -56,4 +56,4 @@ exp_hla_corr = rna_sum_melt %>%
   as.data.frame()
 
 # save to file 
-write.csv(exp_hla_corr, row.names = F, file = "spearcorr_numPresPeptides_summedTranscriptGeneExp_noImputation.csv")
+write.csv(exp_hla_corr, row.names = F, file = "corr_numPresPeptides_summedTranscriptGeneExp_noImputation.csv")
