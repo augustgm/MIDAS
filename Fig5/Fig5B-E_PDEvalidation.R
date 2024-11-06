@@ -17,7 +17,7 @@ des_sheet = c("GZMB_NonTregs", "HLA-DR_NonTregs", "Ki67_NonTregs", "OX40_NonTreg
 # load in the data
 rad = data.frame()
 for (i in 1:length(des_sheet)) {
-  tmp <- readxl::read_excel(path = paste0(path_stem, "MIDAS_n8_PTPN_OSM_data_pvals.xlsx"), sheet = des_sheet[i], na = "N/A") %>% as.data.frame()  
+  tmp <- readxl::read_excel(path = "MIDAS_n8_PTPN_OSM_data_pvals.xlsx", sheet = des_sheet[i], na = "N/A") %>% as.data.frame()  
   colnames(tmp)[1] = "Patient_ID"
   tmp$marker = des_sheet[i]
   rad = rbind(rad, tmp)
