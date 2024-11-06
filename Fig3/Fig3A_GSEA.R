@@ -5,13 +5,10 @@ library(tidyverse)
 library(ggplot2)
 library(WebGestaltR)
 
-res_k50 = read.csv(header = T, stringsAsFactors = F, file = "GiG_NeighbourLoaderKNN50_cvTestHout_predProba.csv")
 
-## Compute GSEA
-gsea = WebGestaltR(enrichMethod = "GSEA", organism = "hsapiens", enrichDatabase = "pathway_Reactome", 
-                   interestGene = res_k50[, c("Gene", "mean_prob")], interestGeneType = "genesymbol",
-                   isOutput = F, nThreads = 5, fdrMethod = "BH", fdrThr = 0.05, topThr = 10)
-
+# Read in data
+gsea = read.csv(header = T, stringsAsFactors = F, file = "GiG_KNN=50_GSEA_webgestaltR_Reactome_supplementary.csv")
+colnames(gsea)[colnames(gsea) == "NES"] = "normalizedEnrichmentScore"
 gsea = gsea[order(abs(gsea$normalizedEnrichmentScore), decreasing = T), ]
 
 ## plot 
@@ -20,11 +17,11 @@ gsea$col_stat = "pos"
 gsea[gsea$normalizedEnrichmentScore < 0, "col_stat"] = "neg"
 
 plot_df = gsea[1:20, ]
-plot_df$description = factor(plot_df$description,
-                             levels = plot_df[order(plot_df$normalizedEnrichmentScore, decreasing = F), "description"])
+plot_df$Description = factor(plot_df$Description,
+                             levels = plot_df[order(plot_df$normalizedEnrichmentScore, decreasing = F), "Description"])
 
 ggplot(data = plot_df, 
-       mapping = aes(x = normalizedEnrichmentScore, y = description, fill = col_stat)) +
+       mapping = aes(x = normalizedEnrichmentScore, y = Description, fill = col_stat)) +
   geom_col() +
   xlab("Normalised enrichment score") +
   scale_fill_manual(values = c("pos" = "#c08081", "neg" = "#685968")) +
