@@ -1,46 +1,13 @@
 #############
 # Plot model predictions for targets
 #############
-library(tidyverse)
 library(ggplot2)
 
-## define targets to plot
-des_targs = c("OSM", "OSMR", "PTPN22") 
+# Read in data
+preds = read.csv(header = T, stringsAsFactors = F, file = "Fig4A_candidateIOtargets_AllPreds_forPlot.csv")
+plot_df = read.csv(header = T, stringsAsFactors = F, file = "Fig4A_candidateIOtargets_Targets_forPlot.csv")
 
-## read in predictions
-preds = read.csv(header = T, stringsAsFactors = F, file = "GiG_NeighbourLoaderKNN50_cvTestHout_predProba.csv")
-
-## filter
-preds = preds %>% mutate(des_stat = ifelse(test = Gene %in% des_targs, yes = "desired", no = "non-target")) %>% as.data.frame()
-preds$rank = 1:nrow(preds)
-
-## plot simple bar graph showing predicted probability
-preds_targ = preds %>% filter(Gene %in% des_targs)
-preds_targ$Gene = factor(preds_targ$Gene, levels = preds_targ[order(preds$mean_prob, decreasing = F), "Gene"])
-
-sum_stats = preds %>% group_by(Target) %>%
-  summarise(mean_val = mean(mean_prob), 
-            med_val = median(mean_prob), 
-            sd_val = sd(mean_prob),
-            n_val = n(),
-            sem = sd(mean_prob) / sqrt(n())) %>%
-  mutate(lower_sem = mean_val - sem, 
-         upper_sem = mean_val + sem) %>%
-  as.data.frame()
-
-colnames(sum_stats)[1:2] = c("Gene", "mean_prob")
-plot_df = rbind(preds_targ[, c("Gene", "mean_prob")], sum_stats[, c("Gene", "mean_prob")])
-plot_df$Gene = factor(plot_df$Gene, levels = plot_df[order(plot_df$mean_prob, decreasing = F), "Gene"])
-
-## plot some ridge plots
-preds$label = "clinically\nunexplored"
-preds[preds$Target == 1, "label"] = "Known IO\ntargets"
-
-plot_df = plot_df %>% filter(Gene %in% des_targs) %>% 
-  mutate(label = "clinically\nunexplored",
-         target_stat = "IO\ncandidate") %>%
-  as.data.frame()
-
+# Plot
 p1 = ggplot(data = preds, mapping = aes(x = mean_prob, y = label)) +
   ggridges::geom_density_ridges(mapping = aes(fill = label),
                                 quantile_lines = T, quantile_fun = function(mean_prob, ...) {median(mean_prob)},
