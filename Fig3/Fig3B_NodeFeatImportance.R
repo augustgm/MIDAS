@@ -1,46 +1,10 @@
 ################################################
-# Analyse node permutation feature importance    
+# Plot node permutation feature importance    
 ################################################
-library(tidyverse)
 library(ggplot2)
 library(ggpubr)
 
-## read in model performance
-mod_perf = read.csv(header = T, stringsAsFactors = F, file = "GIN_model_performance.csv")
-mod_perf = mod_perf %>% filter(KNN == "KNN=50")
-
-## read data type and biological categories annotations
-feat_categs = read.csv(header = T, stringsAsFactors = F, file = "GINinterpret/CategoriseFeatures.csv")
-
-## define path stem 
-path_stem = "GINinterpret/permImp/"
-
-## read in data
-file_vec = list.files(path_stem)
-file_vec = grep(x = file_vec, pattern = "csv", value = T)
-file_vec = grep(x = file_vec, pattern = "_permScores", value = T)
-perm_all = data.frame()
-for (i in 1:length(file_vec)) {
-  curr_df = read.csv(header = T, stringsAsFactors = F, file = paste0(path_stem, file_vec[i]))
-  perm_all = rbind(perm_all, curr_df)
-}
-rm(i, curr_df, file_vec)
-
-
-## merge with feat categs
-perm_all = merge(x = feat_categs, y = perm_all, by = "feature", all = T)
-
-### Define functions ###
-compute_perm_feat_imp = function(perm_res, true_perf=mod_perf[mod_perf$Set == "Train", "auc"]) {
-  return(length(which(perm_res >= true_perf)) / length(perm_res))
-}
-
-
-compute_mean_effect_size = function(perm_res, true_perf=mod_perf[mod_perf$Set == "Train", "auc"]) {
-  return(true_perf - mean(perm_res))
-}
-
-
+# Define function for plotting
 barplot_feat_imp_nogig = function(perm_res_df, xlab_str) {  
   ## change column names for below
   colnames(perm_res_df)[1] = "feature"
@@ -73,14 +37,12 @@ barplot_feat_imp_nogig = function(perm_res_df, xlab_str) {
 }
 
 
-#### Analyse by biological category ####
-perm_biocat_imp = perm_all %>% group_by(bio_category) %>%
-  summarise(mean_eff_size = compute_mean_effect_size(perm_res = perm_roc_auc),
-            perm_pval = compute_perm_feat_imp(perm_res = perm_roc_auc)) %>%
-  mutate(padj = p.adjust(perm_pval, method = "fdr")) %>%
-  as.data.frame()
+## Analyse by biological category ####
 
+# Read in data
+perm_biocat_imp = read.csv(header = T, stringsAsFactors = F, file = "Fig3B_NodeFeatureImportance_forPlot.csv")
 
+# Plot
 p4 = barplot_feat_imp_nogig(perm_res_df = perm_biocat_imp, xlab_str = "Biological category")
 p4 = p4 + theme(legend.position = "none")
 p5 = p4 + coord_polar(start = 0) + 
