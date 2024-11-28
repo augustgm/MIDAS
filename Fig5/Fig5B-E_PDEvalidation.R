@@ -29,7 +29,27 @@ rad$aOSM = as.numeric(rad$aOSM)
 unique(rad$marker)
 colnames(rad)[colnames(rad) == "PTPN-22i"] = "PTPN22i"
 
-#### 5B and 5D ####
+#### Boxplots for all markers ####
+## Create boxplots for all figures together
+all_markers = rad %>% 
+  reshape2::melt(id.vars = c("Patient_ID", "marker"), value.name = "value", variable.name = "condition") %>%
+  as.data.frame()
+
+p_all = ggplot(data = all_markers %>% filter(condition %in% des_conditions), 
+               mapping = aes(x = condition, y = value)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(height = 0, width = 0.25, mapping = aes(color = Patient_ID), size = 4) +
+  labs(x = "Condition", y = "Percentage") +
+  scale_color_manual(values = colours) +
+  #+ coord_polar(start = 1)
+  theme_bw() +
+  theme(text = element_text(size = 20), legend.position = "none") +
+  facet_wrap(~marker)
+
+p_all
+
+
+#### Alternative: 5B and 5D separately ####
 
 ## plot T cell subsets
 tsub = rad %>% filter(marker %in% c("Dysfunctional", "Predysfunctional")) %>%
@@ -56,27 +76,8 @@ p1 = ggplot(data = tsub %>% filter(condition %in% des_conditions),
   facet_wrap(~marker)
 p1
 
-#### Alternative: boxplots for all markers ####
-## Create boxplots for all figures together
-all_markers = rad %>% 
-  reshape2::melt(id.vars = c("Patient_ID", "marker"), value.name = "value", variable.name = "condition") %>%
-  as.data.frame()
 
-p_all = ggplot(data = all_markers %>% filter(condition %in% des_conditions), 
-               mapping = aes(x = condition, y = value)) +
-  geom_boxplot(outlier.shape = NA) +
-  geom_jitter(height = 0, width = 0.25, mapping = aes(color = Patient_ID), size = 4) +
-  labs(x = "Condition", y = "Percentage") +
-  scale_color_manual(values = colours) +
-  #+ coord_polar(start = 1)
-  theme_bw() +
-  theme(text = element_text(size = 20), legend.position = "none") +
-  facet_wrap(~marker)
-
-p_all
-
-
-#### 5C and 5E ####
+#### Alternative: 5C and 5E separately as radar plots ####
 
 ## remove T cell subsets from radar 
 rad = rad %>% filter(marker %ni% c("Dysfunctional", "Predysfunctional"))  
