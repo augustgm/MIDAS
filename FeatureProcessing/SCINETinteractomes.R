@@ -20,8 +20,11 @@ default_assay = "SCT"
 batch_corr = F  # whether to batch correct using Harmony (True) or not (False)
 assay_name = "counts"
 
-## user to create scinet_interactomes directory
+## create scinet_interactomes directory
 path_stem = "./scinet_interactomes/"
+if (!dir.exists(path_stem)) {
+  dir.create(path_stem)
+}
 
 
 ## define input paths
