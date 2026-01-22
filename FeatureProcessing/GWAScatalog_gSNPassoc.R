@@ -20,7 +20,7 @@ auto_im <- c("Addison's disease", "Ankylosing spondylitis", "Autoimmune", "Behce
              "Pemphigus", "arteritis", "myositis", "Primary biliary cirrhosis", "Psoriasis", "Rheumatic fever", "Psoriatic arthritis", "Rheumatoid factor seropositivity in rheumatoid arthritis",
              "Rheumatoid arthritis", "rheumatoid arthritis", "Raynaud's phenomenon", "Reiter's disease", "Sarcoidosis", "gren's syndrome$", "Sympathetic ophthalmia", 
              "Systemic lupus erythematosus", "Systemic scleroderma", "Ulcerative colitis", "Vitiligo", "Eosinophilic granulomatosis with polyangiitis",
-             "Systemic seropositive rheumatic diseases", "Juvenile idiopathic arthritis", "Uveitis", "Alloimmunization", "Membranous nephropathy", #"Paget's disease",
+             "Systemic seropositive rheumatic diseases", "Juvenile idiopathic arthritis", "Uveitis", "Alloimmunization", "Membranous nephropathy",
              "juvenile idiopathic", "Eczema", "Eosinophilic esophagitis", "Food allergy", "Food antigen IgG levels", "Hay fever and/or eczema", "Hydrolysed wheat protein allergy",  # taken from inspecting the unique disease traits
              "Idiopathic inflammatory myopathy", "IgA nephropathy", "Immunoglobulin A vasculitis", "amyloidosis", "Obstetric antiphospholipid syndrome",  # taken from inspecting the unique disease traits
              "Ocular sarcoidosis", "Peanut allergy", "Penicillin allergy", "Recalcitrant atopic dermatitis", "Relapse in multiple sclerosis", "Seborrheic dermatitis", "Systemic sclerosis",  # taken from inspecting the unique disease traits
