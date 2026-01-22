@@ -29,10 +29,11 @@ auto_im <- c("Addison's disease", "Ankylosing spondylitis", "Autoimmune", "Behce
 
 auto_im_dis = data.frame(diseases = grep(paste0(auto_im, collapse = "|"), a$diseases, ignore.case = T, value = T))
 length(unique(auto_im_dis$diseases)) == nrow(auto_im_dis)  # TRUE
+#write.csv(auto_im_dis, row.names = F, file = "autoImmune_allergic_rheumatic_phenotypes.csv")
 
-### Read in auto-immune/rheumatic/allergic features - manually reviewed the phenotypes and decided if they should be included
+### Read in auto-immune/rheumatic/allergic features - manually reviewed the phenotypes and decided if they should be included (below CSV file is included in the repo)
 auto_im_dis = read.csv(stringsAsFactors = F, header = T, file = "autoImmune_allergic_rheumatic_phenotypes.csv")
-auto_im_dis = auto_im_dis[auto_im_dis$Keep == 1, ] 
+
 
 #### Determine immune phenotypes ####
 immune_phenotypes = c("Anti-Epstein-Barr virus nuclear antigen",
@@ -55,15 +56,10 @@ immune_phenotypes = c("Anti-Epstein-Barr virus nuclear antigen",
 imm_phen_dis = data.frame(diseases = unique(c(grep(paste0(immune_phenotypes[!(immune_phenotypes %in% c("Ig", "IL", "CD", "CCL", "CCR"))], collapse = "|"), a$diseases, ignore.case = T, value = T),
                                               grep(paste0(c("Ig", "IL", "CD", "CCL", "CCR"), collapse = "|"), a$diseases, ignore.case = F, value = T),
                                               grep(paste0(unique($SYMBOL), collapse = "|"), a$diseases, ignore.case = T, value = T))))
+#write.csv(imm_phen_dis, row.names = F, file = "immune_phenotypes_gwas_catalog_v2.csv")
 
-
-## Manually checked which of the entries should be included as immune phenotypes
+## Read in immune phenotypes - manually reviewed the phenotypes and decided if they should be included (below CSV file is included in the repo)
 imm_phen_dis = read.csv(header = T, stringsAsFactors = F, file = "immune_phenotypes_gwas_catalog_v2.csv")
-imm_phen_dis[is.na(imm_phen_dis$alt_category), "alt_category"] <- ""
-imm_phen_dis[is.na(imm_phen_dis$evidence), "evidence"] <- ""
-imm_phen_dis[is.na(imm_phen_dis$alternative_to_grep), "alternative_to_grep"] <- ""
-
-imm_phen_dis = imm_phen_dis[(!(is.na(imm_phen_dis$keep))) & (imm_phen_dis$keep == 1), ]
 
 
 #### Define immune modulation ####
@@ -79,12 +75,10 @@ imm_modulation = c("response", "steroid", "vaccine", "suppress", "glucocorticoid
                    "Thiopurine-induced", "Sulfasalazine-induced agranulocytosis", "Drug-induced liver injury in interferon-beta-treated multiple sclerosis")
 
 imm_mod_resp = data.frame(diseases = grep(paste0(imm_modulation, collapse = "|"), a$diseases, ignore.case = T, value = T))
-write.csv(imm_mod_resp, row.names = F,  file = "immune_modulatory_response_gwas_catalog.csv")
+#write.csv(imm_mod_resp, row.names = F, file = "immune_modulatory_response_gwas_catalog.csv")
 
-## Manually checked which of the entries should be included as immune phenotypes
+## Read in immune modulatory response phenotypes - manually reviewed the phenotypes and decided if they should be included (below CSV file is included in the repo)
 imm_mod_resp = read.csv(header = T, stringsAsFactors = F, file = "immune_modulatory_response_gwas_catalog.csv")
-
-imm_mod_resp = imm_mod_resp[imm_mod_resp$keep == 1, ]
 
 
 #### Identify SNPs and genes associated with phenotypes of interest ####
@@ -104,11 +98,10 @@ blood_counts = c("lymphocyte", "monocyte", "macrophage", "granulocyte", "basophi
                  "neutrophil", "White blood", "cell", "myeloid", "lymphoid", "Mastocytosis", "Platelet count") 
 
 blood_counts_phen = data.frame(phenotype = unique(grep(paste0(blood_counts, collapse = "|"), gwas_imm_phen$DISEASE.TRAIT, ignore.case = T, value = T)))
-write.csv(blood_counts_phen, row.names = F, file = "blood_counts_phenotypes.csv")
+#write.csv(blood_counts_phen, row.names = F, file = "blood_counts_phenotypes.csv")
 
-## Manually decided which of the blood counts should be kept
+## Read in blood count phenotypes - manually reviewed the phenotypes and decided if they should be included (below CSV file is included in the repo)
 blood_counts_phen = read.csv(stringsAsFactors = F, header = T, file = "blood_counts_phenotypes.csv")
-blood_counts_phen = blood_counts_phen[blood_counts_phen$keep == 1, ]
 
 
 ### cytokines ###
@@ -116,12 +109,10 @@ cytokines = c("C-reactive protein", "CRP", "cytokine", "CXC", "CCL", "CCR", "IL"
               "Interleukin", "Interferon", "Tumor necrosis factor", "C-X-C", "chemokine") 
 
 cytokine_phen = data.frame(phenotype = unique(grep(paste0(cytokines, collapse = "|"), gwas_imm_phen$DISEASE.TRAIT, ignore.case = T, value = T)))
+#write.csv(cytokine_phen, row.names = F, file = "cytokines_chemokines_phenotypes.csv")
 
-write.csv(cytokine_phen, row.names = F, file = "cytokines_chemokines_phenotypes.csv")
-
-## Manually decided which of the blood counts should be kept
+## Read in cytokine phenotypes - manually reviewed the phenotypes and decided if they should be included (below CSV file is included in the repo)
 cytokine_phen = read.csv(stringsAsFactors = F, header = T, file = "cytokines_chemokines_phenotypes.csv")
-cytokine_phen = cytokine_phen[cytokine_phen$keep == 1, ]
 
 
 # SNP functional class - exclude purely intergenic SNP
