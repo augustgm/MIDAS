@@ -80,8 +80,7 @@ targdb_tract = length(roc_targdb_tract$original.predictor)
 
 ### compare roc results
 roc_objs = list(roc_ens, roc_otdir, roc_otindir, roc_ot_med, roc_targdb_tract, roc_targdb_mpo, roc_crisprco_pos, roc_crisprco_neg, roc_depmap_min)
-
-benchmarks = data.frame(alt_methods = c("ensemble", "OpenTargets_dir", "OpenTargets_indir", "OpenTargets_med", "targetDB_tract", "targetDB_mpo", "CRISPRco_pos", "CRISPRco_neg", "DepMap"),
+benchmarks = data.frame(alt_methods = c("meta learner", "OpenTargets\ndirect", "OpenTargets\nindirect", "OpenTargets\nmedian", "targetDB\ntractability", "targetDB MPO", "CRISPRco pos", "CRISPRco neg", "DepMap"),
                         roc_auc = NA, lowerCI = NA, upperCI = NA, htest_method = NA, pval = NA)
 
 for (i in 1:9) {
@@ -123,7 +122,12 @@ ggplot(data = benchmarks,
   geom_errorbarh(mapping = aes(xmin = lowerCI, xmax = upperCI)) +
   geom_text(mapping = aes(y = alt_methods, x = 1, label = signif(padj, digits = 3), angle = 0),
             size = 4.5) +
+  scale_color_manual(values = c("MIDAS GIN" = "#EC7557", "meta learner" = "#EC7557", "OpenTargets\ndirect" = "#EFB75E", 
+                                "OpenTargets\nindirect" = "#EFB75E", "OpenTargets\nmedian" = "#EFB75E", 
+                                "targetDB\ntractability" = "#A17BA0", "targetDB MPO" = "#A17BA0", 
+                                "CRISPRco pos" = "#1B687E", "CRISPRco neg" = "#1B687E", "DepMap" = "#93D2BD")) +
   ylab("Target discovery methods") + xlab("Held-out ROC-AUC") +
   theme_bw() +
   theme(legend.position = "none", text = element_text(size = 18))
+
 
