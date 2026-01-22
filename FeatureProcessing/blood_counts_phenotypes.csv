@@ -1,0 +1,222 @@
+"phenotype","keep"
+"Lymphocyte percentage of white cells",1
+"Basophil percentage of granulocytes",1
+"Neutrophil percentage of white cells",1
+"Basophil percentage of white cells",1
+"Neutrophil count",1
+"White blood cell count",1
+"White blood cell count (monocyte)",1
+"White blood cell count (neutrophil)",1
+"Eosinophil counts",1
+"White blood cell count (basophil)",1
+"Monocyte count",1
+"Lymphocyte counts",1
+"Platelet count",1
+"Mastocytosis (KIT D816V positive)",1
+"Basophil count",1
+"Eosinophil percentage of white cells",1
+"Monocyte-lymphocyte ratio",1
+"Monocyte percentage of white cells",1
+"Granulocyte percentage of myeloid white cells",1
+"Myeloid white cell count",1
+"Sum basophil neutrophil counts",1
+"Neutrophil percentage of granulocytes",1
+"Sum eosinophil basophil counts",1
+"Eosinophil percentage of granulocytes",1
+"Sum neutrophil eosinophil counts",1
+"Granulocyte count",1
+"White blood cell types",1
+"Cutaneous mastocytosis",1
+"Cutaneous mastocytosis (adult)",1
+"Mastocytosis",1
+"Systemic mastocytosis",1
+"Cutaneous mastocytosis (childhood)",1
+"Myeloid clonal hematopoiesis",1
+"White blood cell count (eosinophil)",1
+"White blood cell count (lymphocyte)",1
+"Low white blood cell count",1
+"B cell %CD3- lymphocyte",1
+"B cell %lymphocyte",1
+"Natural Killer Absolute Count",1
+"Natural Killer %CD3- lymphocyte",1
+"Natural Killer %lymphocyte",1
+"HLA DR+ Natural Killer Absolute Count",1
+"HLA DR+ Natural Killer %Natural Killer",1
+"HLA DR+ Natural Killer  %CD3- lymphocyte",1
+"Granulocyte Absolute Count",1
+"IgD+ CD38+ B cell Absolute Count",1
+"IgD+ CD38- B cell %B cell",1
+"IgD+ CD38- B cell Absolute Count",1
+"Unswitched memory B cell %B cell",1
+"Unswitched memory B cell Absolute Count",1
+"IgD- CD27- B cell %B cell",1
+"IgD+ B cell Absolute Count",1
+"IgD- CD27- B cell Absolute Count",1
+"Switched memory B cell Absolute Count",1
+"Plasma Blast-Plasma Cell %B cell",1
+"Memory B cell %B cell",1
+"Memory B cell Absolute Count",1
+"Naive-mature B cell %B cell",1
+"IgD+ CD24+ B cell %B cell",1
+"IgD+ CD24+ B cell Absolute Count",1
+"CD24+ CD27+ B cell %B cell",1
+"CD24+ CD27+ B cell Absolute Count",1
+"CD20- CD38- B cell %B cell",1
+"IgD+ B cell %Lymphocyte",1
+"IgD- CD38dim B cell %lymphocyte",1
+"IgD- CD38- B cell %lymphocyte",1
+"IgD+ CD38+ B cell %lymphocyte",1
+"IgD+ CD38dim B cell %lymphocyte",1
+"IgD+ CD38- B cell %lymphocyte",1
+"Unswitched memory B cell %lymphocyte",1
+"IgD- CD27- B cell %lymphocyte",1
+"Switched memory B cell %lymphocyte",1
+"Memory B cell %lymphocyte",1
+"IgD+ CD24+ B cell %lymphocyte",1
+"Terminally Differentiated CD4-CD8- T cell Absolute Count",1
+"Terminally Differentiated CD4-CD8- T cell %CD4-CD8- T cell",1
+"Terminally Differentiated CD4-CD8- T cell %T cell",1
+"Naive CD4+ T cell %T cell",1
+"Transitional B cell Absolute Count",1
+"CD28- CD4-CD8- T cell %CD4-CD8- T cell",1
+"CD28- CD4-CD8- T cell Absolute Count",1
+"CD28+ CD4-CD8- T cell %CD4-CD8- T cell",1
+"CD39+ CD4+ T cell %T cell",1
+"CD39+ CD4+ T cell %CD4+ T cell",1
+"CD39+ CD4+ T cell Absolute Count",1
+"CD28- CD8dim T cell %T cell",1
+"Terminally Differentiated CD8+ T cell Absolute Count",1
+"Terminally Differentiated CD8+ T cell %CD8+ T cell",1
+"Terminally Differentiated CD8+ T cell %T cell",1
+"CD45RA+ CD8+ T cell Absolute Count",1
+"CD45RA+ CD8+ T cell %CD8+ T cell",1
+"CD45RA+ CD8+ T cell %T cell",1
+"Effector Memory CD4-CD8- T cell Absolute Count",1
+"Effector Memory CD4-CD8- T cell %CD4-CD8- T cell",1
+"Effector Memory CD4-CD8- T cell %T cell",1
+"CD28- CD8dim T cell %CD8dim T cell",1
+"CD28- CD8dim T cell Absolute Count",1
+"CD28+ CD45RA+ CD8dim T cell %T cell",1
+"CD28+ CD45RA+ CD8dim T cell %CD8dim T cell",1
+"CD28+ CD45RA+ CD8dim T cell Absolute Count",1
+"CD39+ CD8+ T cell %T cell",1
+"CD39+ CD8+ T cell %CD8+ T cell",1
+"CD39+ CD8+ T cell Absolute Count",1
+"CD25++ CD8+ T cell %T cell",1
+"CD25++ CD8+ T cell %CD8+ T cell",1
+"CD25++ CD8+ T cell Absolute Count",1
+"CD28- CD8+ T cell %CD8+ T cell",1
+"CD28- CD8+ T cell Absolute Count",1
+"CD28+ CD45RA+ CD8+ T cell %T cell",1
+"CD28+ CD45RA+ CD8+ T cell Absolute Count",1
+"CD28+ CD45RA- CD8+ T cell %CD8+ T cell",1
+"Monocytic Myeloid-Derived Suppressor Cells Absolute Count",1
+"CD28- CD4-CD8- T cell %T cell",1
+"CD14+ CD16- monocyte Absolute Count",1
+"CD14- CD16+ monocyte %monocyte",1
+"Immature Myeloid-Derived Suppressor Cells Absolute Count",1
+"Immature Myeloid-Derived Suppressor Cells %CD33dim HLA DR- CD66b-",1
+"Central Memory CD4+ T cell Absolute Count",1
+"Central Memory CD4+ T cell %CD4+ T cell",1
+"Naive CD4+ T cell %CD4+ T cell",1
+"Effector Memory CD4+ T cell %T cell",1
+"Terminally Differentiated CD4+ T cell Absolute Count",1
+"Terminally Differentiated CD4+ T cell %CD4+ T cell",1
+"Terminally Differentiated CD4+ T cell %T cell",1
+"Naive CD8+ T cell Absolute Count",1
+"Naive CD8+ T cell %T cell",1
+"Effector Memory CD8+ T cell %CD8+ T cell",1
+"CD39+ secreting CD4 regulatory T cell %secreting CD4 regulatory T cell",1
+"CD39+ secreting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Activated & resting CD4 regulatory T cell Absolute Count",1
+"Activated & resting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Activated & resting CD4 regulatory T cell %CD4+ T cell",1
+"Activated & secreting CD4 regulatory T cell Absolute Count",1
+"Activated & secreting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Activated & secreting CD4 regulatory T cell %CD4+ T cell",1
+"CD25++ CD4+ T cell Absolute Count",1
+"CD25++ CD4+ T cell %CD4+ T cell",1
+"CD25++ CD4+ T cell %T cell",1
+"CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count",1
+"CD25++ CD45RA+ CD4 not regulatory T cell %CD4+ T cell",1
+"CD25++ CD45RA+ CD4 not regulatory T cell %T cell",1
+"CD25++ CD45RA- CD4 not regulatory T cell Absolute Count",1
+"CD25++ CD45RA- CD4 not regulatory T cell %CD4+ T cell",1
+"CD25++ CD45RA- CD4 not regulatory T cell %T cell",1
+"CD45RA- CD4+ T cell Absolute Count",1
+"CD45RA- CD4+ T cell %CD4+ T cell",1
+"CD45RA- CD4+ T cell %T cell",1
+"CD62L- Dendritic Cell %Dendritic Cell",1
+"CD86+ myeloid Dendritic Cell Absolute Count",1
+"CD86+ myeloid Dendritic Cell %Dendritic Cell",1
+"CD86+ plasmacytoid Dendritic Cell %Dendritic Cell",1
+"CD62L- myeloid Dendritic Cell Absolute Count",1
+"CD62L- myeloid Dendritic Cell %Dendritic Cell",1
+"CD62L- CD86+ myeloid Dendritic Cell Absolute Count",1
+"CD62L- CD86+ myeloid Dendritic Cell %Dendritic Cell",1
+"T/B cell",1
+"CD4+ T cell Absolute Count",1
+"CD4+ T cell %T cell",1
+"CD4+CD8+ T cell Absolute Count",1
+"CD4+CD8+ T cell %T cell",1
+"CD8dim T cell Absolute Count",1
+"CD8dim T cell %T cell",1
+"CD4-CD8- T cell Absolute Count",1
+"CD62L- monocyte Absolute Count",1
+"CD62L- monocyte %monocyte",1
+"CD11c+ CD62L- monocyte Absolute Count",1
+"CD11c+ HLA DR++ monocyte %monocyte",1
+"Plasmacytoid Dendritic Cell Absolute Count",1
+"Dendritic Cell Absolute Count",1
+"CD62L- Dendritic Cell Absolute Count",1
+"CD24+ CD27+ B cell %lymphocyte",1
+"IgD+ CD38+ B cell %B cell",1
+"CD4 regulatory T cell %CD4+ T cell",1
+"CD4 regulatory T cell %T cell",1
+"Resting CD4 regulatory T cell Absolute Count",1
+"Resting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Resting CD4 regulatory T cell %CD4+ T cell",1
+"CD39+ resting CD4 regulatory T cell Absolute Count",1
+"CD39+ resting CD4 regulatory T cell %resting CD4 regulatory T cell",1
+"CD39+ resting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Activated CD4 regulatory T cell %CD4 regulatory T cell",1
+"CD39+ activated CD4 regulatory T cell Absolute Count",1
+"CD39+ activated CD4 regulatory T cell %activated CD4 regulatory T cell",1
+"CD39+ activated CD4 regulatory T cell %CD4 regulatory T cell",1
+"Secreting CD4 regulatory T cell Absolute Count",1
+"Secreting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Secreting CD4 regulatory T cell %CD4+ T cell",1
+"CD39+ secreting CD4 regulatory T cell Absolute Count",1
+"CD4-CD8- T cell %T cell",1
+"Lymphocyte Absolute Count",1
+"T cell Absolute Count",1
+"T cell %lymphocyte",1
+"CD4+ T cell %leukocyte",1
+"CD4+CD8+ T cell %leukocyte",1
+"CD4+ CD8dim T cell Absolute Count",1
+"CD4+ CD8dim T cell %lymphocyte",1
+"CD4+ CD8dim T cell %leukocyte",1
+"CD8dim T cell %leukocyte",1
+"CD4-CD8- T cell %leukocyte",1
+"CD8+ and CD8dim T cell %leukocyte",1
+"HLA DR+ T cell Absolute Count",1
+"HLA DR+ T cell%T cell",1
+"HLA DR+ T cell%lymphocyte",1
+"Natural Killer T Absolute Count",1
+"Natural Killer T %T cell",1
+"Natural Killer T %lymphocyte",1
+"HLA DR+ CD4+ T cell Absolute Count",1
+"HLA DR+ CD4+ T cell %T cell",1
+"HLA DR+ CD4+ T cell %lymphocyte",1
+"HLA DR+ CD8+ T cell Absolute Count",1
+"HLA DR+ CD8+ T cell %T cell",1
+"HLA DR+ CD8+ T cell %lymphocyte",1
+"CD8dim Natural Killer T Absolute Count",1
+"CD8dim Natural Killer T %T cell",1
+"CD8dim Natural Killer T %lymphocyte",1
+"CD4-CD8- Natural Killer T Absolute Count",1
+"CD4-CD8- Natural Killer T %T cell",1
+"CD4-CD8- Natural Killer T %lymphocyte",1
+"CD3- lymphocyte %lymphocyte",1
+"CD3- lymphocyte %leukocyte",1
+"B cell Absolute Count",1

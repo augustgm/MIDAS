@@ -1,0 +1,1098 @@
+"diseases","keep"
+"Activated & resting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Activated & resting CD4 regulatory T cell %CD4+ T cell",1
+"Activated & resting CD4 regulatory T cell Absolute Count",1
+"Activated & secreting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Activated & secreting CD4 regulatory T cell %CD4+ T cell",1
+"Activated & secreting CD4 regulatory T cell Absolute Count",1
+"Activated CD4 regulatory T cell %CD4 regulatory T cell",1
+"Activated CD4 regulatory T cell Absolute Count",1
+"ADAMTS13 activity",1
+"ADAMTS13 levels",1
+"Anti-anoctamin 2 antibody levels",1
+"Anti-chlamydia trachomatis IgG seropositivity",1
+"Anti-Epstein-Barr virus IgG seropositivity",1
+"Anti-Epstein-Barr virus nuclear antigen (EBNA) IgG levels",1
+"Anti-herpes simplex virus 2 IgG seropositivity",1
+"Anti-human herpes virus 6 IE1A IgG seropositivity",1
+"Anti-JC polyomavirus IgG seropositivity",1
+"Anti-Merkel cell polyomavirus IgG seropositivity",1
+"Anti-polyomavirus 2 IgG seropositivity",1
+"Anti-rubella virus IgG levels",1
+"Anti-Toxoplasma gondii IgG seropositivity",1
+"Anti-varicella zoster virus IgG seropositivity",1
+"Antibody level in response to infection",1
+"Antibody status in Tripanosoma cruzi seropositivity",1
+"Aortic vascular smooth muscle cell proliferation in response to IL-1 beta",1
+"B cell %CD3- lymphocyte",1
+"B cell %lymphocyte",1
+"B cell Absolute Count",1
+"B cell lymphocyte profile difference",1
+"BAFF-R on B cell",1
+"BAFF-R on CD20- B cell",1
+"BAFF-R on CD20- CD38- B cell",1
+"BAFF-R on CD24+ CD27+ B cell",1
+"BAFF-R on IgD- CD24- B cell",1
+"BAFF-R on IgD- CD27- B cell",1
+"BAFF-R on IgD- CD38- B cell",1
+"BAFF-R on IgD- CD38+ B cell",1
+"BAFF-R on IgD- CD38dim B cell",1
+"BAFF-R on IgD+ B cell",1
+"BAFF-R on IgD+ CD24- B cell",1
+"BAFF-R on IgD+ CD24+ B cell",1
+"BAFF-R on IgD+ CD38- B cell",1
+"BAFF-R on IgD+ CD38+ B cell",1
+"BAFF-R on IgD+ CD38dim B cell",1
+"BAFF-R on memory B cell",1
+"BAFF-R on naive-mature B cell",1
+"BAFF-R on switched memory B cell",1
+"BAFF-R on transitional B cell",1
+"BAFF-R on unswitched memory B cell",1
+"Basophil %CD33dim HLA DR- CD66b-",1
+"Basophil Absolute Count",1
+"Basophil count",1
+"Basophil percentage of granulocytes",1
+"Basophil percentage of white cells",1
+"BK polyomavirus VP1 antibody levels",1
+"C-reactive protein",1
+"C-reactive protein (red blood cell fatty acid level interaction)",1
+"C-reactive protein and white blood cell count",1
+"C-reactive protein levels",1
+"C-reactive protein levels or HDL-cholesterol levels (pleiotropy)",1
+"C-reactive protein levels or LDL-cholesterol levels (pleiotropy)",1
+"C-reactive protein levels or total cholesterol levels (pleiotropy)",1
+"C-reactive protein levels or triglyceride levels (pleiotropy)",1
+"C-X-C motif chemokine 10 levels",1
+"Candida albicans stimulated CCL3 levels",1
+"Candida albicans stimulated IL-8 levels",1
+"Candida albicans stimulated MCP-2 levels",1
+"Candida albicans stimulated MMP-1 levels",1
+"CCL19 levels",1
+"CCL23 levels",1
+"CCL24 levels",1
+"CCL25 levels",1
+"CCR2 on CD14- CD16-",1
+"CCR2 on CD14- CD16+ monocyte",1
+"CCR2 on CD14+ CD16- monocyte",1
+"CCR2 on CD14+ CD16+ monocyte",1
+"CCR2 on CD62L+ myeloid Dendritic Cell",1
+"CCR2 on CD62L+ plasmacytoid Dendritic Cell",1
+"CCR2 on granulocyte",1
+"CCR2 on monocyte",1
+"CCR2 on myeloid Dendritic Cell",1
+"CCR2 on plasmacytoid Dendritic Cell",1
+"CCR7 on naive CD4+ T cell",1
+"CCR7 on naive CD8+ T cell",1
+"CD11b on basophil",1
+"CD11b on CD14+ monocyte",1
+"CD11b on CD33+ HLA DR+ CD14dim",1
+"CD11b on CD33dim HLA DR-",1
+"CD11b on Monocytic Myeloid-Derived Suppressor Cells",1
+"CD11c on CD62L+ myeloid Dendritic Cell",1
+"CD11c on granulocyte",1
+"CD11c on monocyte",1
+"CD11c on myeloid Dendritic Cell",1
+"CD11c+ CD62L- monocyte Absolute Count",1
+"CD11c+ HLA DR++ monocyte %monocyte",1
+"CD11c+ HLA DR++ monocyte Absolute Count",1
+"CD123 on CD62L+ plasmacytoid Dendritic Cell",1
+"CD123 on plasmacytoid Dendritic Cell",1
+"CD127- CD8+ T cell Absolute Count",1
+"CD127 on CD28- CD8+ T cell",1
+"CD127 on CD28+ CD4-CD8- T cell",1
+"CD127 on CD28+ CD4+ T cell",1
+"CD127 on CD28+ CD45RA- CD8+ T cell",1
+"CD127 on CD28+ CD45RA+ CD8+ T cell",1
+"CD127 on CD4+ T cell",1
+"CD127 on CD45RA- CD4 not regulatory T cell",1
+"CD127 on CD45RA+ CD4+ T cell",1
+"CD127 on CD8+ T cell",1
+"CD127 on granulocyte",1
+"CD14- CD16- Absolute Count",1
+"CD14- CD16+ monocyte %monocyte",1
+"CD14- CD16+ monocyte Absolute Count",1
+"CD14 on CD14+ CD16- monocyte",1
+"CD14 on CD14+ CD16+ monocyte",1
+"CD14 on CD33+ HLA DR+ CD14dim",1
+"CD14 on CD33dim HLA DR+ CD11b+",1
+"CD14+ CD16- monocyte %monocyte",1
+"CD14+ CD16- monocyte Absolute Count",1
+"CD14+ CD16+ monocyte %monocyte",1
+"CD14+ CD16+ monocyte Absolute Count",1
+"CD16-CD56 on HLA DR+ Natural Killer",1
+"CD16-CD56 on Natural Killer",1
+"CD16-CD56 on Natural Killer T",1
+"CD16 on CD14- CD16+ monocyte",1
+"CD16 on CD14+ CD16+ monocyte",1
+"CD16+ monocyte %monocyte",1
+"CD19 on B cell",1
+"CD19 on CD20- CD38- B cell",1
+"CD19 on CD24+ CD27+ B cell",1
+"CD19 on IgD- CD27- B cell",1
+"CD19 on IgD- CD38- B cell",1
+"CD19 on IgD- CD38dim B cell",1
+"CD19 on IgD+ B cell",1
+"CD19 on IgD+ CD24- B cell",1
+"CD19 on IgD+ CD24+ B cell",1
+"CD19 on IgD+ CD38- B cell",1
+"CD19 on IgD+ CD38+ B cell",1
+"CD19 on IgD+ CD38dim B cell",1
+"CD19 on memory B cell",1
+"CD19 on naive-mature B cell",1
+"CD19 on switched memory B cell",1
+"CD19 on transitional B cell",1
+"CD19 on unswitched memory B cell",1
+"CD20- CD38- B cell %B cell",1
+"CD20 on B cell",1
+"CD20 on CD24+ CD27+ B cell",1
+"CD20 on IgD- CD24- B cell",1
+"CD20 on IgD- CD27- B cell",1
+"CD20 on IgD- CD38- B cell",1
+"CD20 on IgD- CD38dim B cell",1
+"CD20 on IgD+ B cell",1
+"CD20 on IgD+ CD24- B cell",1
+"CD20 on IgD+ CD24+ B cell",1
+"CD20 on IgD+ CD38- B cell",1
+"CD20 on IgD+ CD38+ B cell",1
+"CD20 on IgD+ CD38dim B cell",1
+"CD20 on memory B cell",1
+"CD20 on naive-mature B cell",1
+"CD20 on switched memory B cell",1
+"CD20 on transitional B cell",1
+"CD20 on unswitched memory B cell",1
+"CD24 on CD24+ CD27+ B cell",1
+"CD24 on IgD- CD38- B cell",1
+"CD24 on IgD- CD38dim B cell",1
+"CD24 on IgD+ CD24+ B cell",1
+"CD24 on IgD+ CD38- B cell",1
+"CD24 on IgD+ CD38+ B cell",1
+"CD24 on memory B cell",1
+"CD24 on switched memory B cell",1
+"CD24 on transitional B cell",1
+"CD24 on unswitched memory B cell",1
+"CD24+ CD27+ B cell %B cell",1
+"CD24+ CD27+ B cell %lymphocyte",1
+"CD24+ CD27+ B cell Absolute Count",1
+"CD25 on activated CD4 regulatory T cell",1
+"CD25 on B cell",1
+"CD25 on CD24+ CD27+ B cell",1
+"CD25 on CD28+ CD4+ T cell",1
+"CD25 on CD39+ activated CD4 regulatory T cell",1
+"CD25 on CD39+ CD4 regulatory T cell",1
+"CD25 on CD39+ CD4+ T cell",1
+"CD25 on CD39+ resting CD4 regulatory T cell",1
+"CD25 on CD39+ secreting CD4 regulatory T cell",1
+"CD25 on CD4+ T cell",1
+"CD25 on CD45RA- CD4 not regulatory T cell",1
+"CD25 on CD45RA+ CD4 not regulatory T cell",1
+"CD25 on IgD- CD24- B cell",1
+"CD25 on IgD- CD27- B cell",1
+"CD25 on IgD- CD38- B cell",1
+"CD25 on IgD- CD38dim B cell",1
+"CD25 on IgD+ B cell",1
+"CD25 on IgD+ CD24- B cell",1
+"CD25 on IgD+ CD24+ B cell",1
+"CD25 on IgD+ CD38- B cell",1
+"CD25 on IgD+ CD38+ B cell",1
+"CD25 on IgD+ CD38dim B cell",1
+"CD25 on memory B cell",1
+"CD25 on naive-mature B cell",1
+"CD25 on resting CD4 regulatory T cell",1
+"CD25 on secreting CD4 regulatory T cell",1
+"CD25 on switched memory B cell",1
+"CD25 on transitional B cell",1
+"CD25 on unswitched memory B cell",1
+"CD25++ CD4+ T cell %CD4+ T cell",1
+"CD25++ CD4+ T cell %T cell",1
+"CD25++ CD4+ T cell Absolute Count",1
+"CD25++ CD45RA- CD4 not regulatory T cell %CD4+ T cell",1
+"CD25++ CD45RA- CD4 not regulatory T cell %T cell",1
+"CD25++ CD45RA- CD4 not regulatory T cell Absolute Count",1
+"CD25++ CD45RA+ CD4 not regulatory T cell %CD4+ T cell",1
+"CD25++ CD45RA+ CD4 not regulatory T cell %T cell",1
+"CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count",1
+"CD25++ CD8+ T cell %CD8+ T cell",1
+"CD25++ CD8+ T cell %T cell",1
+"CD25++ CD8+ T cell Absolute Count",1
+"CD27 on CD24+ CD27+ B cell",1
+"CD27 on IgD- CD38- B cell",1
+"CD27 on IgD- CD38+ B cell",1
+"CD27 on IgD- CD38dim B cell",1
+"CD27 on IgD+ CD24+ B cell",1
+"CD27 on memory B cell",1
+"CD27 on Plasma Blast-Plasma Cell",1
+"CD27 on switched memory B cell",1
+"CD27 on unswitched memory B cell",1
+"CD28- CD127- CD25++ CD8+ T cell Absolute Count",1
+"CD28- CD25++ CD8+ T cell %CD8+ T cell",1
+"CD28- CD25++ CD8+ T cell %T cell",1
+"CD28- CD25++ CD8+ T cell Absolute Count",1
+"CD28- CD4-CD8- T cell %CD4-CD8- T cell",1
+"CD28- CD4-CD8- T cell %T cell",1
+"CD28- CD4-CD8- T cell Absolute Count",1
+"CD28- CD8+ T cell %CD8+ T cell",1
+"CD28- CD8+ T cell %T cell",1
+"CD28- CD8+ T cell Absolute Count",1
+"CD28- CD8dim T cell %CD8dim T cell",1
+"CD28- CD8dim T cell %T cell",1
+"CD28- CD8dim T cell Absolute Count",1
+"CD28 on activated & secreting CD4 regulatory T cell",1
+"CD28 on activated CD4 regulatory T cell",1
+"CD28 on CD28+ CD4-CD8- T cell",1
+"CD28 on CD28+ CD4+ T cell",1
+"CD28 on CD28+ CD45RA- CD8+ T cell",1
+"CD28 on CD28+ CD45RA+ CD8+ T cell",1
+"CD28 on CD39+ activated CD4 regulatory T cell",1
+"CD28 on CD39+ CD4+ T cell",1
+"CD28 on CD39+ CD8+ T cell",1
+"CD28 on CD39+ resting CD4 regulatory T cell",1
+"CD28 on CD39+ secreting CD4 regulatory T cell",1
+"CD28 on CD4 regulatory T cell",1
+"CD28 on CD4+ T cell",1
+"CD28 on CD45RA- CD4 not regulatory T cell",1
+"CD28 on CD45RA+ CD4+ T cell",1
+"CD28 on resting CD4 regulatory T cell",1
+"CD28 on secreting CD4 regulatory T cell",1
+"CD28+ CD4-CD8- T cell %CD4-CD8- T cell",1
+"CD28+ CD4-CD8- T cell %T cell",1
+"CD28+ CD45RA- CD8+ T cell %CD8+ T cell",1
+"CD28+ CD45RA+ CD8+ T cell %T cell",1
+"CD28+ CD45RA+ CD8+ T cell Absolute Count",1
+"CD28+ CD45RA+ CD8dim T cell %CD8dim T cell",1
+"CD28+ CD45RA+ CD8dim T cell %T cell",1
+"CD28+ CD45RA+ CD8dim T cell Absolute Count",1
+"CD3- lymphocyte %leukocyte",1
+"CD3- lymphocyte %lymphocyte",1
+"CD3 on activated & secreting CD4 regulatory T cell",1
+"CD3 on activated CD4 regulatory T cell",1
+"CD3 on CD28- CD8+ T cell",1
+"CD3 on CD28+ CD4+ T cell",1
+"CD3 on CD28+ CD45RA- CD8+ T cell",1
+"CD3 on CD28+ CD45RA+ CD8+ T cell",1
+"CD3 on CD39+ activated CD4 regulatory T cell",1
+"CD3 on CD39+ CD4+ T cell",1
+"CD3 on CD39+ CD8+ T cell",1
+"CD3 on CD39+ resting CD4 regulatory T cell",1
+"CD3 on CD39+ secreting CD4 regulatory T cell",1
+"CD3 on CD4 regulatory T cell",1
+"CD3 on CD4+ T cell",1
+"CD3 on CD45RA- CD4+ T cell",1
+"CD3 on CD45RA+ CD4+ T cell",1
+"CD3 on CD8+ T cell",1
+"CD3 on Central Memory CD4+ T cell",1
+"CD3 on Central Memory CD8+ T cell",1
+"CD3 on Effector Memory CD4+ T cell",1
+"CD3 on Effector Memory CD8+ T cell",1
+"CD3 on HLA DR+ CD4+ T cell",1
+"CD3 on HLA DR+ CD8+ T cell",1
+"CD3 on HLA DR+ T cell",1
+"CD3 on Naive CD4+ T cell",1
+"CD3 on naive CD8+ T cell",1
+"CD3 on Natural Killer T",1
+"CD3 on resting CD4 regulatory T cell",1
+"CD3 on secreting CD4 regulatory T cell",1
+"CD3 on Terminally Differentiated CD4+ T cell",1
+"CD3 on Terminally Differentiated CD8+ T cell",1
+"CD33- HLA DR- Absolute Count",1
+"CD33- HLA DR+ Absolute Count",1
+"CD33 on basophil",1
+"CD33 on CD14+ monocyte",1
+"CD33 on CD33+ HLA DR+",1
+"CD33 on CD33+ HLA DR+ CD14-",1
+"CD33 on CD33+ HLA DR+ CD14dim",1
+"CD33 on CD33dim HLA DR-",1
+"CD33 on CD33dim HLA DR+ CD11b-",1
+"CD33 on CD33dim HLA DR+ CD11b+",1
+"CD33 on CD66b++ myeloid cell",1
+"CD33 on Granulocytic Myeloid-Derived Suppressor Cells",1
+"CD33 on Immature Myeloid-Derived Suppressor Cells",1
+"CD33 on Monocytic Myeloid-Derived Suppressor Cells",1
+"CD33+ HLA DR+ Absolute Count",1
+"CD33+ HLA DR+ CD14- %CD33+ HLA DR+",1
+"CD33+ HLA DR+ CD14- Absolute Count",1
+"CD33+ HLA DR+ CD14dim %CD33+ HLA DR+",1
+"CD33+ HLA DR+ CD14dim Absolute Count",1
+"CD33dim HLA DR- Absolute Count",1
+"CD33dim HLA DR+ CD11b- %CD33dim HLA DR+",1
+"CD33dim HLA DR+ CD11b- Absolute Count",1
+"CD33dim HLA DR+ CD11b+ %CD33dim HLA DR+",1
+"CD33dim HLA DR+ CD11b+ Absolute Count",1
+"CD34 on Hematopoietic Stem Cell",1
+"CD38 on IgD- CD38dim B cell",1
+"CD38 on IgD+ B cell",1
+"CD38 on IgD+ CD24- B cell",1
+"CD38 on IgD+ CD38+ B cell",1
+"CD38 on IgD+ CD38dim B cell",1
+"CD38 on naive-mature B cell",1
+"CD38 on transitional B cell",1
+"CD39 on CD39+ activated CD4 regulatory T cell",1
+"CD39 on CD39+ CD4+ T cell",1
+"CD39 on CD39+ CD8+ T cell",1
+"CD39 on CD39+ secreting CD4 regulatory T cell",1
+"CD39 on granulocyte",1
+"CD39 on monocyte",1
+"CD39+ activated CD4 regulatory T cell %activated CD4 regulatory T cell",1
+"CD39+ activated CD4 regulatory T cell %CD4 regulatory T cell",1
+"CD39+ activated CD4 regulatory T cell Absolute Count",1
+"CD39+ CD4+ T cell %CD4+ T cell",1
+"CD39+ CD4+ T cell %T cell",1
+"CD39+ CD4+ T cell Absolute Count",1
+"CD39+ CD8+ T cell %CD8+ T cell",1
+"CD39+ CD8+ T cell %T cell",1
+"CD39+ CD8+ T cell Absolute Count",1
+"CD39+ resting CD4 regulatory T cell %CD4 regulatory T cell",1
+"CD39+ resting CD4 regulatory T cell %resting CD4 regulatory T cell",1
+"CD39+ resting CD4 regulatory T cell Absolute Count",1
+"CD39+ secreting CD4 regulatory T cell %CD4 regulatory T cell",1
+"CD39+ secreting CD4 regulatory T cell %secreting CD4 regulatory T cell",1
+"CD39+ secreting CD4 regulatory T cell Absolute Count",1
+"CD4-CD8- Natural Killer T %lymphocyte",1
+"CD4-CD8- Natural Killer T %T cell",1
+"CD4-CD8- Natural Killer T Absolute Count",1
+"CD4-CD8- T cell %leukocyte",1
+"CD4-CD8- T cell %T cell",1
+"CD4-CD8- T cell Absolute Count",1
+"CD4 on activated & secreting CD4 regulatory T cell",1
+"CD4 on activated CD4 regulatory T cell",1
+"CD4 on CD28+ CD4+ T cell",1
+"CD4 on CD39+ activated CD4 regulatory T cell",1
+"CD4 on CD39+ CD4+ T cell",1
+"CD4 on CD39+ secreting CD4 regulatory T cell",1
+"CD4 on CD4 regulatory T cell",1
+"CD4 on CD4+ T cell",1
+"CD4 on CD45RA+ CD4+ T cell",1
+"CD4 on Central Memory CD4+ T cell",1
+"CD4 on Effector Memory CD4+ T cell",1
+"CD4 on HLA DR+ CD4+ T cell",1
+"CD4 on monocyte",1
+"CD4 on naive CD4+ T cell",1
+"CD4 on resting CD4 regulatory T cell",1
+"CD4 on secreting CD4 regulatory T cell",1
+"CD4 regulatory T cell %CD4+ T cell",1
+"CD4 regulatory T cell %T cell",1
+"CD4:CD8 lymphocyte ratio",1
+"CD4+ CD8dim T cell %leukocyte",1
+"CD4+ CD8dim T cell %lymphocyte",1
+"CD4+ CD8dim T cell Absolute Count",1
+"CD4+ T cell %leukocyte",1
+"CD4+ T cell %T cell",1
+"CD4+ T cell Absolute Count",1
+"CD4+/CD8+ T cell",1
+"CD4+CD8+ T cell %leukocyte",1
+"CD4+CD8+ T cell %T cell",1
+"CD4+CD8+ T cell Absolute Count",1
+"CD40 levels",1
+"CD40 ligand levels",1
+"CD40 on CD14- CD16+ monocyte",1
+"CD40 on CD14+ CD16- monocyte",1
+"CD40 on CD14+ CD16+ monocyte",1
+"CD40 on monocytes",1
+"CD45 on B cell",1
+"CD45 on CD14+ monocyte",1
+"CD45 on CD33- HLA DR-",1
+"CD45 on CD33- HLA DR+",1
+"CD45 on CD33+ HLA DR+ CD14-",1
+"CD45 on CD33dim HLA DR-",1
+"CD45 on CD4+ T cell",1
+"CD45 on CD8+ T cell",1
+"CD45 on granulocyte",1
+"CD45 on HLA DR+ CD4+ T cell",1
+"CD45 on HLA DR+ T cell",1
+"CD45 on Immature Myeloid-Derived Suppressor Cells",1
+"CD45 on lymphocyte",1
+"CD45 on Natural Killer",1
+"CD45 on Natural Killer T",1
+"CD45RA- CD4+ T cell %CD4+ T cell",1
+"CD45RA- CD4+ T cell %T cell",1
+"CD45RA- CD4+ T cell Absolute Count",1
+"CD45RA on CD39+ resting CD4 regulatory T cell",1
+"CD45RA on naive CD4+ T cell",1
+"CD45RA on naive CD8+ T cell",1
+"CD45RA on resting CD4 regulatory T cell",1
+"CD45RA on Terminally Differentiated CD8+ T cell",1
+"CD45RA+ CD8+ T cell %CD8+ T cell",1
+"CD45RA+ CD8+ T cell %T cell",1
+"CD45RA+ CD8+ T cell Absolute Count",1
+"CD4RA on Terminally Differentiated CD4+ T cell",1
+"CD6 levels",1
+"CD62L- CD86+ myeloid Dendritic Cell %Dendritic Cell",1
+"CD62L- CD86+ myeloid Dendritic Cell Absolute Count",1
+"CD62L- Dendritic Cell %Dendritic Cell",1
+"CD62L- Dendritic Cell Absolute Count",1
+"CD62L- monocyte %monocyte",1
+"CD62L- monocyte Absolute Count",1
+"CD62L- myeloid Dendritic Cell %Dendritic Cell",1
+"CD62L- myeloid Dendritic Cell Absolute Count",1
+"CD62L- plasmacytoid Dendritic Cell %Dendritic Cell",1
+"CD62L- plasmacytoid Dendritic Cell Absolute Count",1
+"CD62L on CD62L+ Dendritic Cell",1
+"CD62L on CD62L+ myeloid Dendritic Cell",1
+"CD62L on CD62L+ plasmacytoid Dendritic Cell",1
+"CD62L on monocyte",1
+"CD64 on CD14- CD16-",1
+"CD64 on CD14- CD16+ monocyte",1
+"CD64 on CD14+ CD16- monocyte",1
+"CD64 on CD14+ CD16+ monocyte",1
+"CD64 on monocyte",1
+"CD8-positive T-lymphocyte count",1
+"CD8 on CD28- CD8+ T cell",1
+"CD8 on CD28+ CD45RA- CD8+ T cell",1
+"CD8 on CD28+ CD45RA+ CD8+ T cell",1
+"CD8 on CD39+ CD8+ T cell",1
+"CD8 on CD8+ T cell",1
+"CD8 on Central Memory CD8+ T cell",1
+"CD8 on Effector Memory CD8+ T cell",1
+"CD8 on HLA DR+ CD8+ T cell",1
+"CD8 on naive CD8+ T cell",1
+"CD8 on Natural Killer T",1
+"CD8+ and CD8dim T cell %leukocyte",1
+"CD8+ Natural Killer T %lymphocyte",1
+"CD8+ Natural Killer T %T cell",1
+"CD8+ Natural Killer T Absolute Count",1
+"CD8+ T cell %leukocyte",1
+"CD8+ T cell %T cell",1
+"CD8+ T cell Absolute Count",1
+"CD80 on CD62L+ myeloid Dendritic Cell",1
+"CD80 on CD62L+ plasmacytoid Dendritic Cell",1
+"CD80 on granulocyte",1
+"CD80 on monocyte",1
+"CD80 on myeloid Dendritic Cell",1
+"CD80 on plasmacytoid Dendritic Cell",1
+"CD86 on granulocyte",1
+"CD86 on monocyte",1
+"CD86+ myeloid Dendritic Cell %Dendritic Cell",1
+"CD86+ myeloid Dendritic Cell Absolute Count",1
+"CD86+ plasmacytoid Dendritic Cell %Dendritic Cell",1
+"CD8dim Natural Killer T %lymphocyte",1
+"CD8dim Natural Killer T %T cell",1
+"CD8dim Natural Killer T Absolute Count",1
+"CD8dim T cell %leukocyte",1
+"CD8dim T cell %T cell",1
+"CD8dim T cell Absolute Count",1
+"Cellular adhesion molecule (red blood cell fatty acid level interaction)",1
+"Cellular nuclear factor (erythroid-derived 2)-like 2 levels",1
+"Central Memory CD4+ T cell %CD4+ T cell",1
+"Central Memory CD4+ T cell %T cell",1
+"Central Memory CD4+ T cell Absolute Count",1
+"Cerebrospinal fluid clusterin levels",1
+"Cerebrospinal fluid immune biomarker levels",1
+"Chlamydia trachomatis pGP3 antibody levels",1
+"Chlamydia trachomatis PorB antibody levels",1
+"Circulating chemerin levels",1
+"Complement C3 and C4 levels",1
+"Complement C3 levels",1
+"Complement C4 levels",1
+"Complement factor H-like 1 protein levels",1
+"Complement factor H-related protein 1 levels",1
+"Complement factor H-related protein 2 levels",1
+"Complement factor H-related protein 3 levels",1
+"Complement factor H-related protein 4 levels",1
+"Complement factor H-related protein 4A levels",1
+"Complement factor H-related protein 5 levels",1
+"Complement factor H binding to malondialdehyde",1
+"Complement factor H levels",1
+"Complement factor H measurement",1
+"Composite immunoglobulin trait (IgA x IgG x IgM)",1
+"Composite immunoglobulin trait (IgA x IgG)",1
+"Composite immunoglobulin trait (IgA x IgG/IgM)",1
+"Composite immunoglobulin trait (IgA/IgG)",1
+"Composite immunoglobulin trait (IgA/IgM)",1
+"Composite immunoglobulin trait (IgG/IgM)",1
+"Cutaneous mastocytosis",1
+"Cutaneous mastocytosis (adult)",1
+"Cutaneous mastocytosis (childhood)",1
+"CX3CR1 on CD14- CD16-",1
+"CX3CR1 on CD14- CD16+ monocyte",1
+"CX3CR1 on CD14+ CD16- monocyte",1
+"CX3CR1 on CD14+ CD16+ monocyte",1
+"CX3CR1 on monocyte",1
+"CXCL5 levels",1
+"CXCL6 levels",1
+"Cytokine-stimulated IL-6 production",1
+"Cytokine and corticosteroid-stimulated IL-6 production",1
+"Cytokine levels",1
+"Cytokine network levels (multivariate analysis)",1
+"Cytomegalovirus antibody response",1
+"Cytomegalovirus high-level reactivation after ﻿allogeneic hematopoietic cell transplantation (﻿donors)",1
+"Cytomegalovirus high-level reactivation after ﻿allogeneic hematopoietic cell transplantation (﻿recipients)",1
+"Cytomegalovirus infection after ﻿allogeneic hematopoietic cell transplantation (﻿donors)",1
+"Cytomegalovirus infection after ﻿allogeneic hematopoietic cell transplantation (﻿recipients)",1
+"Cytomegalovirus pp28 antibody levels",1
+"Cytomegalovirus reactivation after ﻿allogeneic hematopoietic cell transplantation (﻿donors)",1
+"Cytomegalovirus reactivation after ﻿allogeneic hematopoietic cell transplantation (﻿recipients)",1
+"Dendritic Cell Absolute Count",1
+"DNA methylation-estimated granulocyte proportions",1
+"E-selectin levels",1
+"Effector Memory CD4-CD8- T cell %CD4-CD8- T cell",1
+"Effector Memory CD4-CD8- T cell %T cell",1
+"Effector Memory CD4-CD8- T cell Absolute Count",1
+"Effector Memory CD4+ T cell %CD4+ T cell",1
+"Effector Memory CD4+ T cell %T cell",1
+"Effector Memory CD4+ T cell Absolute Count",1
+"Effector Memory CD8+ T cell %CD8+ T cell",1
+"Effector Memory CD8+ T cell %T cell",1
+"Effector Memory CD8+ T cell Absolute Count",1
+"Endothelial cell-specific molecule 1 levels",1
+"Eosinophil cationic protein levels",1
+"Eosinophil counts",1
+"Eosinophil percentage of granulocytes",1
+"Eosinophil percentage of white cells",1
+"Eosinophill count (UKB data field 30150)",1
+"Eosinophill percentage (UKB data field 30210)",1
+"epithelial cell adhesion molecule levels",1
+"Epstein-Barr virus copy number in lymphoblastoid cell lines",1
+"Epstein-Barr virus EA-D antibody levels",1
+"Epstein-Barr virus EBNA-1 antibody levels",1
+"Epstein-Barr virus immune response (EBNA-1)",1
+"Epstein-Barr virus immune response (multivariate analysis)",1
+"Epstein-Barr virus VCA p18 antibody levels",1
+"Epstein-Barr virus ZEBRA antibody levels",1
+"Epstein Barr virus nuclear antigen 1 IgG levels",1
+"Epstein Barr virus nuclear antigen 1 IgG seropositivity",1
+"Extranodal natural killer T-cell lymphoma (nasal type)",1
+"Ferritin levels",1
+"Fibrinogen",1
+"Fibrinogen levels",1
+"Fibrinogen levels (smoking status, alcohol consumption or body mass index interaction)",1
+"Food antigen IgG levels",1
+"FSC-A on CD14+ monocyte",1
+"FSC-A on CD4+ T cell",1
+"FSC-A on CD8+ T cell",1
+"FSC-A on granulocyte",1
+"FSC-A on HLA DR+ Natural Killer",1
+"FSC-A on monocyte",1
+"FSC-A on myeloid Dendritic Cell",1
+"FSC-A on Natural Killer",1
+"FSC-A on Natural Killer T",1
+"FSC-A on plasmacytoid Dendritic Cell",1
+"Gamma glutamyl transferase levels",1
+"Gamma glutamyl transferase levels in excessive alcohol consumption",1
+"Gamma glutamyl transferase levels in low alcohol consumption",1
+"Granulocyte-colony stimulating factor levels",1
+"Granulocyte %leukocyte",1
+"Granulocyte Absolute Count",1
+"Granulocyte count",1
+"Granulocyte percentage of myeloid white cells",1
+"Granulocytic Myeloid-Derived Suppressor Cells Absolute Count",1
+"Helicobacter pylori OMP antibody levels",1
+"Helicobacter pylori UREA antibody levels",1
+"Hematopoietic Stem Cell Absolute Count",1
+"Hepatitis B vaccine response",1
+"Herpes simplex virus 2 mgG-1 antibody levels",1
+"High-sensitivity C-reactive protein levels in HIV infection",1
+"High IL-1beta levels in gingival crevicular fluid",1
+"HLA DR on B cell",1
+"HLA DR on CD14- CD16-",1
+"HLA DR on CD14- CD16+ monocyte",1
+"HLA DR on CD14+ CD16- monocyte",1
+"HLA DR on CD14+ CD16+ monocyte",1
+"HLA DR on CD14+ monocyte",1
+"HLA DR on CD33- HLA DR+",1
+"HLA DR on CD33+ HLA DR+ CD14-",1
+"HLA DR on CD33+ HLA DR+ CD14dim",1
+"HLA DR on CD33dim HLA DR+ CD11b-",1
+"HLA DR on CD33dim HLA DR+ CD11b+",1
+"HLA DR on Dendritic Cell",1
+"HLA DR on Hematopoietic Stem Cell",1
+"HLA DR on HLA DR+ CD4+ T cell",1
+"HLA DR on HLA DR+ Natural Killer",1
+"HLA DR on HLA DR+ T cell",1
+"HLA DR on monocyte",1
+"HLA DR on myeloid Dendritic Cell",1
+"HLA DR on plasmacytoid Dendritic Cell",1
+"HLA DR+ CD4+ T cell %lymphocyte",1
+"HLA DR+ CD4+ T cell %T cell",1
+"HLA DR+ CD4+ T cell Absolute Count",1
+"HLA DR+ CD8+ T cell %lymphocyte",1
+"HLA DR+ CD8+ T cell %T cell",1
+"HLA DR+ CD8+ T cell Absolute Count",1
+"HLA DR+ Natural Killer  %CD3- lymphocyte",1
+"HLA DR+ Natural Killer %Natural Killer",1
+"HLA DR+ Natural Killer Absolute Count",1
+"HLA DR+ T cell Absolute Count",1
+"HLA DR+ T cell%lymphocyte",1
+"HLA DR+ T cell%T cell",1
+"HLA DR++ monocyte %leukocyte",1
+"HLA DR++ monocyte %monocyte",1
+"HLA DR++ monocyte Absolute Count",1
+"Human herpes virus 6 IE1A antibody levels",1
+"Human herpes virus 7 U14 antibody levels",1
+"Human polyomavirus 6 VP1 antibody levels",1
+"HVEM on CD4+ T cell",1
+"HVEM on CD45RA- CD4+ T cell",1
+"HVEM on CD8+ T cell",1
+"HVEM on Central Memory CD4+ T cell",1
+"HVEM on Central Memory CD8+ T cell",1
+"HVEM on Effector Memory CD4+ T cell",1
+"HVEM on Effector Memory CD8+ T cell",1
+"HVEM on naive CD4+ T cell",1
+"HVEM on naive CD8+ T cell",1
+"HVEM on T cell",1
+"HVEM on Terminally Differentiated CD4+ T cell",1
+"IFN-related cytopenia",1
+"IgA levels",1
+"IgA nephropathy",1
+"IgD- CD27- B cell %B cell",1
+"IgD- CD27- B cell %lymphocyte",1
+"IgD- CD27- B cell Absolute Count",1
+"IgD- CD38- B cell %lymphocyte",1
+"IgD- CD38- B cell Absolute Count",1
+"IgD- CD38+ B cell %B cell",1
+"IgD- CD38dim B cell %lymphocyte",1
+"IgD on IgD+ B cell",1
+"IgD on IgD+ CD24- B cell",1
+"IgD on IgD+ CD24+ B cell",1
+"IgD on IgD+ CD38-  B cell",1
+"IgD on IgD+ CD38+ B cell",1
+"IgD on IgD+ CD38dim B cell",1
+"IgD on transitional B cell",1
+"IgD on unswitched memory B cell",1
+"IgD+ B cell %B cell",1
+"IgD+ B cell %Lymphocyte",1
+"IgD+ B cell Absolute Count",1
+"IgD+ CD24- B cell %B cell",1
+"IgD+ CD24- B cell %lymphocyte",1
+"IgD+ CD24- B cell Absolute Count",1
+"IgD+ CD24+ B cell %B cell",1
+"IgD+ CD24+ B cell %lymphocyte",1
+"IgD+ CD24+ B cell Absolute Count",1
+"IgD+ CD38- B cell %B cell",1
+"IgD+ CD38- B cell %lymphocyte",1
+"IgD+ CD38- B cell Absolute Count",1
+"IgD+ CD38+ B cell %B cell",1
+"IgD+ CD38+ B cell %lymphocyte",1
+"IgD+ CD38+ B cell Absolute Count",1
+"IgD+ CD38dim B cell %lymphocyte",1
+"IgD+ CD38dim B cell Absolute Count",1
+"IgE levels",1
+"IgG bisecting N-acetyl glucosamine phenotypes (multivariate analysis)",1
+"IgG digalactosylation phenotypes (multivariate analysis)",1
+"IgG disialylation phenotypes (multivariate analysis)",1
+"IgG fucosylation phenotypes (multivariate analysis)",1
+"IgG galactosylation phenotypes (multivariate analysis)",1
+"IgG glycosylation",1
+"IgG glycosylation patterns",1
+"IgG levels",1
+"IgG monogalactosylation phenotypes (multivariate analysis)",1
+"IgG monosialylation phenotypes (multivariate analysis)",1
+"IgG N-glycosylation phenotypes (multivariate analysis)",1
+"IgG response to Plasmodium falciparum antigens (GLURP, MSP2 FC27, MSP2 3D7)",1
+"IgG sialylation phenotypes (multivariate analysis)",1
+"IgG1 response to Plasmodium falciparum antigen (GLURP)",1
+"IgM levels",1
+"Immature Myeloid-Derived Suppressor Cells %CD33dim HLA DR- CD66b-",1
+"Immature Myeloid-Derived Suppressor Cells Absolute Count",1
+"Immune reponse to smallpox (secreted IFN-alpha)",1
+"Immune reponse to smallpox (secreted IL-10)",1
+"Immune reponse to smallpox (secreted IL-12p40)",1
+"Immune reponse to smallpox (secreted IL-1beta)",1
+"Immune reponse to smallpox (secreted IL-2)",1
+"Immune reponse to smallpox (secreted TNF-alpha)",1
+"Immunoglobulin A",1
+"Immunoglobulin M against phosphorylcholine (IgM anti-PC) levels",1
+"Immunoglobulin measurement (zinc sulfate turbidity test)",1
+"Intercellular adhesion molecule 1 (red blood cell fatty acid level interaction)",1
+"interferon-related traits",1
+"Interferon gamma-induced protein 10 levels",1
+"Interferon gamma levels",1
+"Interleukin-1-beta levels",1
+"Interleukin-1-receptor antagonist levels",1
+"Interleukin-10 levels",1
+"Interleukin-10 levels in non-alcoholic fatty liver disease x mastiha supplementation interaction",1
+"Interleukin-10 receptor B levels",1
+"Interleukin-12 subunit B levels",1
+"Interleukin-12p70 levels",1
+"Interleukin-13 levels",1
+"Interleukin-16 levels",1
+"Interleukin-17 levels",1
+"Interleukin-18 levels",1
+"interleukin-18 receptor 1 levels",1
+"Interleukin-2 levels",1
+"Interleukin-2 receptor antagonist levels",1
+"Interleukin-27 levels",1
+"Interleukin-4 levels",1
+"Interleukin-5 levels",1
+"Interleukin-6 (red blood cell fatty acid level interaction)",1
+"Interleukin-6 gene expression levels in non-alcoholic fatty liver disease x mastiha supplementation interaction",1
+"Interleukin-6 levels",1
+"Interleukin-6 levels in HIV infection",1
+"Interleukin-6 levels in non-alcoholic fatty liver disease x mastiha supplementation interaction",1
+"Interleukin-6 receptor subunit alpha levels",1
+"Interleukin-7 levels",1
+"Interleukin-8 levels",1
+"Interleukin-9 levels",1
+"interleukin 12 receptor subunit beta-1 levels",1
+"interleukin 15 receptor subunit alpha levels",1
+"interleukin 17 receptor B levels",1
+"Iron status biomarkers (ferritin levels)",1
+"JC polyomavirus VP1 antibody levels",1
+"Leukocyte Absolute Count",1
+"Leukocyte telomere length",1
+"Low white blood cell count",1
+"Low white blood cell count (conditioned on rs2814778)",1
+"Lymphocyte-to-monocyte ratio",1
+"Lymphocyte %leukocyte",1
+"Lymphocyte Absolute Count",1
+"Lymphocyte count (UKB data field 30120)",1
+"Lymphocyte counts",1
+"Lymphocyte percentage (UKB data field 30180)",1
+"Lymphocyte percentage of white cells",1
+"Macrophage colony-stimulating factor 1 levels",1
+"Macrophage colony stimulating factor levels",1
+"Macrophage inflammatory protein 1a levels",1
+"Macrophage inflammatory protein 1b levels",1
+"Macrophage Migration Inhibitory Factor levels",1
+"Mastocytosis",1
+"Mastocytosis (KIT D816V positive)",1
+"Matrix metalloproteinase-1 levels",1
+"Matrix metalloproteinase-10 levels",1
+"Matrix metalloproteinase-12 levels",1
+"Matrix metalloproteinase-3 levels",1
+"Matrix metalloproteinase-7 levels",1
+"Matrix metalloproteinase-8 levels",1
+"Matrix metalloproteinase levels",1
+"Memory B cell %B cell",1
+"Memory B cell %lymphocyte",1
+"Memory B cell Absolute Count",1
+"Merkel cell polyomavirus VP1 antibody levels",1
+"MHC class I polypeptide-related sequence A levels",1
+"Midgestational cytokine/chemokine levels (fetal genetic effect)",1
+"Midgestational cytokine/chemokine levels (maternal genetic effect)",1
+"Monocyte-lymphocyte ratio",1
+"Monocyte Absolute Count",1
+"Monocyte chemoattractant protein-1 (red blood cell fatty acid level interaction)",1
+"Monocyte chemoattractant protein-1 levels",1
+"Monocyte chemoattractant protein-3 levels",1
+"Monocyte chemoattractant protein-4 levels",1
+"Monocyte count",1
+"Monocyte count (UKB data field 30130)",1
+"Monocyte early outgrowth colony forming units",1
+"Monocyte percentage (UKB data field 30190)",1
+"Monocyte percentage of white cells",1
+"Monocytic Myeloid-Derived Suppressor Cells Absolute Count",1
+"Monokine induced by gamma interferon levels",1
+"Myeloid Dendritic Cell %Dendritic Cell",1
+"Myeloid Dendritic Cell Absolute Count",1
+"Myeloid white cell count",1
+"Naive-mature B cell %B cell",1
+"Naive-mature B cell %lymphocyte",1
+"Naive-mature B cell Absolute Count",1
+"Naive CD4-CD8- T cell %T cell",1
+"Naive CD4+ T cell %CD4+ T cell",1
+"Naive CD4+ T cell %T cell",1
+"Naive CD4+ T cell Absolute Count",1
+"Naive CD8+ T cell %CD8+ T cell",1
+"Naive CD8+ T cell %T cell",1
+"Naive CD8+ T cell Absolute Count",1
+"Natural Killer %CD3- lymphocyte",1
+"Natural Killer %lymphocyte",1
+"Natural Killer Absolute Count",1
+"Natural Killer T %lymphocyte",1
+"Natural Killer T %T cell",1
+"Natural Killer T Absolute Count",1
+"Neonatal cytokine/chemokine levels (fetal genetic effect)",1
+"Neonatal cytokine/chemokine levels (maternal genetic effect)",1
+"Neuromyelitis optica (AQP4-IgG-positive)",1
+"Neutrophil-to-lymphocyte ratio",1
+"Neutrophil count",1
+"Neutrophil count in HIV-infection",1
+"Neutrophil percentage of granulocytes",1
+"Neutrophil percentage of white cells",1
+"Neutrophill count (UKB data field 30140)",1
+"Neutrophill percentage (UKB data field 30200)",1
+"PDL-1 on CD14- CD16-",1
+"PDL-1 on CD14- CD16+ monocyte",1
+"PDL-1 on CD14+ CD16- monocyte",1
+"PDL-1 on CD14+ CD16+ monocyte",1
+"PDL-1 on monocyte",1
+"Pentraxin-related protein PTX3 levels",1
+"Plasma ANGPTL8 levels",1
+"Plasma Blast-Plasma Cell %B cell",1
+"Plasma Blast-Plasma Cell %lymphocyte",1
+"Plasma Blast-Plasma Cell Absolute Count",1
+"Plasma clusterin levels",1
+"Plasmacytoid Dendritic Cell %Dendritic Cell",1
+"Plasmacytoid Dendritic Cell Absolute Count",1
+"Platelet-derived growth factor BB levels",1
+"Platelet-derived growth factor subunit B levels",1
+"Platelet-to-lymphocyte ratio",1
+"Platelet count",1
+"Platelet count (UKB data field 30080)",1
+"Platelet crit (UKB data field 30090)",1
+"Platelet endothelial cell adhesion molecule levels",1
+"Plateletcrit",1
+"Polyomavirus 2  JC VP1 antibody levels",1
+"Pro-interleukin-16 levels",1
+"Resistin levels",1
+"Resting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Resting CD4 regulatory T cell %CD4+ T cell",1
+"Resting CD4 regulatory T cell Absolute Count",1
+"Rubella-specific interleukin-6 secretion",1
+"Secreting CD4 regulatory T cell %CD4 regulatory T cell",1
+"Secreting CD4 regulatory T cell %CD4+ T cell",1
+"Secreting CD4 regulatory T cell Absolute Count",1
+"Selective IgA deficiency",1
+"Serum alkaline phosphatase levels",1
+"Serum C-reactive protein concentration",1
+"Serum C-reactive protein concentration in high fat diet",1
+"Serum C-reactive protein concentration in inactive individuals",1
+"Serum C-reactive protein concentration in low fat diet",1
+"Serum C-reactive protein concentration in non-obese individuals",1
+"Serum C-reactive protein concentration in obesity",1
+"Serum C-reactive protein concentration in visceral obesity (waist-hip ratio)",1
+"Serum C-reactive protein concentration in visceral obesity (waist circumference)",1
+"Serum C3d:C3 ratio (systemic complement activation)",1
+"Serum galactose-deficient IgA1 levels",1
+"Serum galactose-deficient IgA1 levels in IgA nephropathy",1
+"Serum IgA levels",1
+"Serum IgE levels",1
+"Serum immune biomarker levels",1
+"Serum interleukin-6 concentration",1
+"Serum interleukin-6 concentration in active individuals",1
+"Serum interleukin-6 concentration in high fat diet",1
+"Serum interleukin-6 concentration in non-visceral-obese individuals",1
+"Serum levels of protein ADAM22",1
+"Serum levels of protein ADAMDEC1",1
+"Serum levels of protein ADAMTS13",1
+"Serum levels of protein ANGPT1",1
+"Serum levels of protein ANGPTL3",1
+"Serum levels of protein ANGPTL4",1
+"Serum levels of protein ANGPTL7",1
+"Serum levels of protein ASPN",1
+"Serum levels of protein C1QTNF1",1
+"Serum levels of protein C1QTNF9",1
+"Serum levels of protein C8A;C8B;C8G",1
+"Serum levels of protein CCL1",1
+"Serum levels of protein CCL11",1
+"Serum levels of protein CCL13",1
+"Serum levels of protein CCL14",1
+"Serum levels of protein CCL15",1
+"Serum levels of protein CCL17",1
+"Serum levels of protein CCL18",1
+"Serum levels of protein CCL19",1
+"Serum levels of protein CCL2",1
+"Serum levels of protein CCL21",1
+"Serum levels of protein CCL22",1
+"Serum levels of protein CCL23",1
+"Serum levels of protein CCL25",1
+"Serum levels of protein CCL27",1
+"Serum levels of protein CCL28",1
+"Serum levels of protein CCL3",1
+"Serum levels of protein CCL3L3",1
+"Serum levels of protein CCL4L1",1
+"Serum levels of protein CCL5",1
+"Serum levels of protein CCL7",1
+"Serum levels of protein CCL8",1
+"Serum levels of protein CD27",1
+"Serum levels of protein CD4",1
+"Serum levels of protein CXCL1",1
+"Serum levels of protein CXCL11",1
+"Serum levels of protein CXCL12",1
+"Serum levels of protein CXCL16",1
+"Serum levels of protein CXCL2;CXCL3",1
+"Serum levels of protein CXCL5",1
+"Serum levels of protein CXCL6",1
+"Serum levels of protein CXCL8",1
+"Serum levels of protein CXCL9",1
+"Serum levels of protein EDN2",1
+"Serum levels of protein EEF2K",1
+"Serum levels of protein FCGR2B",1
+"Serum levels of protein HAVCR2",1
+"Serum levels of protein IAPP",1
+"Serum levels of protein IFNA2",1
+"Serum levels of protein IFNAR1",1
+"Serum levels of protein IFNGR1",1
+"Serum levels of protein IL10RA",1
+"Serum levels of protein IL10RB",1
+"Serum levels of protein IL11RA",1
+"Serum levels of protein IL12B",1
+"Serum levels of protein IL12B;IL23A",1
+"Serum levels of protein IL12RB2",1
+"Serum levels of protein IL13RA1",1
+"Serum levels of protein IL15",1
+"Serum levels of protein IL15RA",1
+"Serum levels of protein IL16",1
+"Serum levels of protein IL17RA",1
+"Serum levels of protein IL17RB",1
+"Serum levels of protein IL17RD",1
+"Serum levels of protein IL18R1",1
+"Serum levels of protein IL18RAP",1
+"Serum levels of protein IL19",1
+"Serum levels of protein IL1B",1
+"Serum levels of protein IL1R1",1
+"Serum levels of protein IL1R2",1
+"Serum levels of protein IL1RAP",1
+"Serum levels of protein IL1RL1",1
+"Serum levels of protein IL1RL2",1
+"Serum levels of protein IL21",1
+"Serum levels of protein IL22",1
+"Serum levels of protein IL22RA1",1
+"Serum levels of protein IL22RA2",1
+"Serum levels of protein IL23R",1
+"Serum levels of protein IL27RA",1
+"Serum levels of protein IL32",1
+"Serum levels of protein IL34",1
+"Serum levels of protein IL36A",1
+"Serum levels of protein IL36G",1
+"Serum levels of protein IL3RA",1
+"Serum levels of protein IL5",1
+"Serum levels of protein IL5RA",1
+"Serum levels of protein IL6R",1
+"Serum levels of protein IL6ST",1
+"Serum levels of protein IL7",1
+"Serum levels of protein IL7R",1
+"Serum levels of protein IL9",1
+"Serum levels of protein ISG15",1
+"Serum levels of protein MICA",1
+"Serum levels of protein MICALL2",1
+"Serum levels of protein MICB",1
+"Serum levels of protein TGFB1",1
+"Serum levels of protein THPO",1
+"Serum levels of protein TNF",1
+"Serum levels of protein TNFAIP6",1
+"Serum levels of protein TNFAIP8",1
+"Serum levels of protein TNFRSF10A",1
+"Serum levels of protein TNFRSF10B",1
+"Serum levels of protein TNFRSF11A",1
+"Serum levels of protein TNFRSF11B",1
+"Serum levels of protein TNFRSF12A",1
+"Serum levels of protein TNFRSF13B",1
+"Serum levels of protein TNFRSF14",1
+"Serum levels of protein TNFRSF18",1
+"Serum levels of protein TNFRSF19",1
+"Serum levels of protein TNFRSF1A",1
+"Serum levels of protein TNFRSF1B",1
+"Serum levels of protein TNFRSF8",1
+"Serum levels of protein TNFSF11",1
+"Serum levels of protein TNFSF12",1
+"Serum levels of protein TNFSF14",1
+"Serum levels of protein TNFSF18",1
+"Serum levels of protein TRIL",1
+"Serum sclerostin levels",1
+"Soluble E-selectin levels",1
+"Soluble E-selectin levels (adjusted for ABO rs2519093 genotypes)",1
+"Soluble interleukin-2 receptor subunit alpha",1
+"Sphingomyelin 24:0 levels",1
+"Sphingomyelin levels",1
+"Sphingomyelin(32:1)_[M-CH3]1- levels",1
+"Sphingomyelin(32:1)_[M+H]1+ levels",1
+"Sphingomyelin(33:1)_[M-CH3]1- levels",1
+"Sphingomyelin(34:0)_[M-CH3]1- levels",1
+"Sphingomyelin(34:0)_[M+H]1+ levels",1
+"Sphingomyelin(34:1)_[M-CH3]1- levels",1
+"Sphingomyelin(34:1)_[M+H]1+ levels",1
+"Sphingomyelin(34:2)_[M+H]1+ levels",1
+"Sphingomyelin(36:0)_[M-CH3]1- levels",1
+"Sphingomyelin(36:0)_[M+H]1+ levels",1
+"Sphingomyelin(36:1)_[M-CH3]1- levels",1
+"Sphingomyelin(36:1)_[M+H]1+ levels",1
+"Sphingomyelin(36:2)_[M+H]1+ levels",1
+"Sphingomyelin(37:1)_[M-CH3]1- levels",1
+"Sphingomyelin(37:1)_[M+H]1+ levels",1
+"Sphingomyelin(38:0)_[M+H]1+ levels",1
+"Sphingomyelin(38:1)_[M+CH3]1- levels",1
+"Sphingomyelin(38:1)_[M+H]1+ levels",1
+"Sphingomyelin(39:1)_[M-CH3]1- levels",1
+"Sphingomyelin(39:1)_[M+H]1+ levels",1
+"Sphingomyelin(40:0)_[M+OAc]1- levels",1
+"Sphingomyelin(40:1)_[M-CH3]1- levels",1
+"Sphingomyelin(40:2)_[M-CH3]1- levels",1
+"Sphingomyelin(41:1)_[M+H]1+ levels",1
+"Sphingomyelin(41:2)_[M-CH3]1- levels",1
+"Sphingomyelin(41:2)_[M+H]1+ levels",1
+"Sphingomyelin(42:0)_[M+OAc]1- levels",1
+"Sphingomyelin(42:2)_[M+OAc]1- levels",1
+"Sphingomyelin(42:3)_[M+H]1+ levels",1
+"Sphingomyelin(42:4)_[M+H]1+ levels",1
+"Sphingomyelin(43:2)_[M-CH3]1- levels",1
+"Sphingomyelin(44:9)_[M+H]1- levels",1
+"Sphingomyelin_32:1_[M+H]1+ levels",1
+"Sphingomyelin_33:1_[M+H]1+ levels",1
+"Sphingomyelin_34:0_[M+H]1+ levels",1
+"Sphingomyelin_34:1_[M+H]1+ levels",1
+"Sphingomyelin_34:2_[M+H]1+ levels",1
+"Sphingomyelin_35:1_[M+H]1+ levels",1
+"Sphingomyelin_36:0_[M+H]1+ levels",1
+"Sphingomyelin_36:1_[M+H]1+ levels",1
+"Sphingomyelin_36:2_[M+H]1+ levels",1
+"Sphingomyelin_37:1_[M+H]1+ levels",1
+"Sphingomyelin_38:1_[M+H]1+ levels",1
+"Sphingomyelin_38:2_[M+H]1+ levels",1
+"Sphingomyelin_39:1_[M+H]1+ levels",1
+"Sphingomyelin_39:2_[M+H]1+ levels",1
+"Sphingomyelin_40:0_[M+H]1+ levels",1
+"Sphingomyelin_40:1_[M+H]1+ levels",1
+"Sphingomyelin_40:2_[M+H]1+ levels",1
+"Sphingomyelin_40:3_[M+H]1+ levels",1
+"Sphingomyelin_41:0_[M+H]1+ levels",1
+"Sphingomyelin_41:2_[M+H]1+ levels",1
+"Sphingomyelin_42:1_[M+H]1+ levels",1
+"Sphingomyelin_42:2_[M+H]1+ levels",1
+"Sphingomyelin_42:2_[M+OAc]1- levels",1
+"Sphingomyelin_42:3_[M+H]1+ levels",1
+"Sphingomyelin_43_2_[M+H]1+ levels",1
+"SSC-A on B cell",1
+"SSC-A on CD14+ monocyte",1
+"SSC-A on CD4+ T cell",1
+"SSC-A on granulocyte",1
+"SSC-A on HLA DR+ Natural Killer",1
+"SSC-A on HLA DR+ T cell",1
+"SSC-A on lymphocyte",1
+"SSC-A on monocyte",1
+"SSC-A on myeloid Dendritic Cell",1
+"SSC-A on Natural Killer",1
+"SSC-A on Natural Killer T",1
+"SSC-A on plasmacytoid Dendritic Cell",1
+"SSC-A on T cell",1
+"Stem cell factor levels",1
+"Stromal-cell-derived factor 1 alpha levels",1
+"Sum basophil neutrophil counts",1
+"Sum eosinophil basophil counts",1
+"Sum neutrophil eosinophil counts",1
+"Switched memory B cell %lymphocyte",1
+"Switched memory B cell Absolute Count",1
+"Systemic mastocytosis",1
+"T-Cell Immunoglobulin and Mucin domain 1 levels",1
+"T cell %leukocyte",1
+"T cell %lymphocyte",1
+"T cell Absolute Count",1
+"T cell lymphocyte profile difference",1
+"T/B cell",1
+"TCRgd T cell %lymphocyte",1
+"TCRgd T cell Absolute Count",1
+"Terminally Differentiated CD4-CD8- T cell %CD4-CD8- T cell",1
+"Terminally Differentiated CD4-CD8- T cell %T cell",1
+"Terminally Differentiated CD4-CD8- T cell Absolute Count",1
+"Terminally Differentiated CD4+ T cell %CD4+ T cell",1
+"Terminally Differentiated CD4+ T cell %T cell",1
+"Terminally Differentiated CD4+ T cell Absolute Count",1
+"Terminally Differentiated CD8+ T cell %CD8+ T cell",1
+"Terminally Differentiated CD8+ T cell %T cell",1
+"Terminally Differentiated CD8+ T cell Absolute Count",1
+"Thyroid autoantibody positivity (anti-thyroglobulin (TgAb) and/or anti-thyroid peroxidase  (TPOAb) levels)",1
+"Thyroid peroxidase antibody levels",1
+"Thyroid peroxidase antibody positivity",1
+"Thyroid peroxidase autoantibody levels in type 1 diabetes",1
+"TNF-alpha gene expression levels in non-alcoholic fatty liver disease x mastiha supplementation interaction",1
+"TNF-related activation-induced cytokine levels",1
+"TNF-related apoptosis-inducing ligand levels",1
+"TNF-related apoptosis-inducing ligand receptor 2 levels",1
+"Toxoplasma gondii sag1 antibody levels",1
+"TRAIL levels",1
+"Transitional B cell Absolute Count",1
+"Tumor necrosis factor receptor II (red blood cell fatty acid level interaction)",1
+"Unswitched memory B cell %B cell",1
+"Unswitched memory B cell %lymphocyte",1
+"Unswitched memory B cell Absolute Count",1
+"Uridine levels",1
+"Varicella zoster virus glycoproteins E and I antibody levels",1
+"Viral capsid antigen IgG seropositivity",1
+"White blood cell count",1
+"White blood cell count (basophil)",1
+"White blood cell count (eosinophil)",1
+"White blood cell count (lymphocyte)",1
+"White blood cell count (monocyte)",1
+"White blood cell count (neutrophil)",1
+"White blood cell leukocyte count (UKB data field 30000)",1
+"White blood cell types",1
+"WU polyomavirus VP1 antibody levels",1

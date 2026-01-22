@@ -1,0 +1,285 @@
+"diseases","Keep"
+"Sjögren's syndrome",1
+"Rheumatic fever",1
+"Primary biliary cirrhosis",1
+"Juvenile idiopathic arthritis (oligoarticular or rheumatoid factor-negative polyarticular)",1
+"Allergic disease (asthma, hay fever or eczema)",1
+"Food allergy",1
+"Peanut allergy",1
+"Graves' disease",1
+"Hashimoto thyroiditis",1
+"Autoimmune thyroid diseases (Graves disease or Hashimoto's thyroiditis)",1
+"Cutaneous lupus erythematosus",1
+"Psoriasis",1
+"Diisocyanate-induced asthma",1
+"Systemic lupus erythematosus",1
+"Recalcitrant atopic dermatitis",1
+"Type 1 diabetes and autoimmune thyroid diseases",1
+"Ulcerative colitis",1
+"Vogt-Koyanagi-Harada syndrome",1
+"IgE levels in asthmatics",1
+"IgE levels in asthmatics (D.p. specific)",1
+"IgE levels in asthmatics (D.f. specific)",1
+"Allergic dermatitis (nickel)",1
+"Asthma",1
+"Celiac disease",1
+"Sarcoidosis",1
+"Alloimmunization response to red blood cell transfusion in sickle cell anemia",1
+"Myasthenia gravis",1
+"Takayasu arteritis",1
+"Multiple sclerosis",1
+"Relapse in multiple sclerosis",1
+"Systemic sclerosis",1
+"Ankylosing spondylitis",1
+"Vitiligo",1
+"Atopic dermatitis",1
+"Bronchial hyperresponsiveness in asthma",1
+"Dupuytren's disease",1
+"Immunoglobulin light chain (AL) amyloidosis (serum Ig light chain only lambda based profile)",1
+"Immunoglobulin light chain (AL) amyloidosis (liver involvement)",1
+"Immunoglobulin light chain (AL) amyloidosis (heart and kidney involvement)",1
+"Immunoglobulin light chain (AL) amyloidosis (serum Ig light chain only lambda/kappa based profile)",1
+"Immunoglobulin light chain (AL) amyloidosis (serum Ig lambda profile)",1
+"Immunoglobulin light chain (AL) amyloidosis (heart involvement)",1
+"Immunoglobulin light chain (AL) amyloidosis (kidney involvement)",1
+"Immunoglobulin light chain (AL) amyloidosis (serum IgG profile)",1
+"Type 1 diabetes",1
+"Sarcoidosis (non-Lofgren's syndrome)",1
+"Sarcoidosis (non-Lofgren's syndrome without extrapulmonary manifestations)",1
+"Sarcoidosis (Lofgren's syndrome vs non-Lofgren's syndrome)",1
+"Sarcoidosis (Lofgren's syndrome)",1
+"Dermatomyositis",1
+"Adult asthma",1
+"Obstetric antiphospholipid syndrome",1
+"Seborrheic dermatitis",1
+"Bone erosion in rheumatoid arthritis",1
+"Ankylosing spondylitis (SNP x SNP interaction)",1
+"Psoriasis vulgaris",1
+"Asthma (childhood onset)",1
+"Limited cutaneous systemic scleroderma",1
+"Diffuse cutaneous systemic sclerosis",1
+"Systemic sclerosis (anti-centromere-positive)",1
+"Systemic sclerosis (anti-topoisomerase-positive)",1
+"Giant cell arteritis",1
+"Clinically amyopathic dermatomyositis",1
+"Kawasaki disease",1
+"Immunoglobulin A vasculitis",1
+"Rheumatoid arthritis",1
+"Rheumatoid arthritis (ACPA-negative)",1
+"Rheumatoid arthritis (ACPA-positive)",1
+"Autoimmune hepatitis in primary sclerosing cholangitis",1
+"Vitiligo (late onset)",1
+"Vitiligo (early onset)",1
+"Crohn's disease",1
+"Coronary artery aneurysm in Kawasaki disease",1
+"Joint damage in rheumatoid arthritis",1
+"Severe progression in rheumatoid arthritis",1
+"Asthma or allergic disease (pleiotropy)",1
+"Pemphigus",1
+"Pemphigus vulgaris",1
+"Chronic lymphocytic leukemia or multiple sclerosis",1
+"Diffuse large B-cell lymphoma or multiple sclerosis",1
+"Follicular lymphoma or multiple sclerosis",1
+"Marginal zone lymphoma or multiple sclerosis",1
+"Chronic lymphocytic leukemia or rheumatoid arthritis",1
+"Diffuse large B-cell lymphoma or rheumatoid arthritis",1
+"Follicular lymphoma or rheumatoid arthritis",1
+"Marginal zone lymphoma or rheumatoid arthritis",1
+"Chronic lymphocytic leukemia or systemic lupus erythematosus",1
+"Diffuse large B-cell lymphoma or systemic lupus erythematosus",1
+"Marginal zone lymphoma or systemic lupus erythematosus",1
+"Diabetic nephropathy in type 1 diabetes",1
+"Asthma (time to onset)",1
+"Allergic rhinitis x sex interaction",1
+"Uveitis (juvenile idiopathic arthritis-associated)",1
+"Systemic seropositive rheumatic diseases (Systemic sclerosis or systemic lupus erythematosus or rheumatoid arthritis or idiopathic inflammatory myopathies)",1
+"Hydrolysed wheat protein allergy",1
+"Asthma and attention deficit hyperactivity disorder",1
+"Asthma and anxiety disorder",1
+"Asthma and major depressive disorder",1
+"Systemic lupus erythematosus or rheumatoid arthritis",1
+"Poor prognosis in Crohn's disease",1
+"Decreased low contrast letter acuity in multiple sclerosis",1
+"Eosinophilic granulomatosis with polyangiitis (MPO-ANCA positive)",1
+"Eosinophilic granulomatosis with polyangiitis (ANCA negative)",1
+"Eosinophilic granulomatosis with polyangiitis",1
+"Eosinophilic esophagitis",1
+"Lung function (FVC) in asthma",1
+"Lung function (FEV1/FVC) in asthma",1
+"Lung function (FEV1) in asthma",1
+"Complete remission in asthma",1
+"Atopic asthma",1
+"Dermatomyositis or juvenile dermatomyositis",1
+"Polymyositis",1
+"Idiopathic inflammatory myopathy",1
+"Nonatopic asthma",1
+"Refractory celiac disease type II",1
+"Diabetes mellitus",1
+"Allergic rhinitis",1
+"Allergic sensitization",1
+"Asthma x air pollution interaction (2df)",1
+"Asthma x Hispanic interaction (2df)",1
+"IgA nephropathy",1
+"Penicillin allergy",1
+"Hay fever and/or eczema",1
+"Exacerbations requiring hospitalisation in asthma",1
+"Eczema",1
+"Ocular sarcoidosis",1
+"Asthma (time to childhood onset) in early life tobacco smoke exposure",1
+"Asthma (time to childhood onset) x early life tobacco smoke interaction",1
+"joint destruction in rheumatoid arthritis (rapid vs slow)",1
+"Asthma with severe exacerbations",1
+"Asthma-chronic obstructive  pulmonary disease overlap syndrome",1
+"Addison's disease",1
+"Autoimmune pulmonary alveolar proteinosis",1
+"Coronary artery disease in type 1 diabetes",1
+"Carotid intima media thickness in rheumatoid arthritis",1
+"Cardiovascular event in rheumatoid arthritis",1
+"Ischemic heart disease in rheumatoid arthritis",1
+"Carotid plaques in rheumatoid arthritis",1
+"Latent autoimmune diabetes",1
+"Latent autoimmune diabetes vs. type 2 diabetes",1
+"Latent autoimmune diabetes vs. type 1 diabetes",1
+"Pemphigus foliaceus",1
+"Autoimmune hepatitis type-1",1
+"Interferon alpha levels in systemic lupus erythematosus",1
+"Psoriatic arthritis",1
+"Inflammatory biomarkers in Kawasaki disease",1
+"Allergic rhinitis in asthma",1
+"Allergic rhinitis in non-asthmatics",1
+"Asthma (sex interaction)",1
+"Lupus nephritis in systemic lupus erythematosus",1
+"Acute anterior uveitis (with or without ankylosing spondylitis)",1
+"Acute anterior uveitis in ankylosing spondylitis",1
+"Crohn's disease-related phenotypes",1
+"Mixed cryoglobulinemia vasculitis in chronic hepatitis C infection",1
+"Asthma and hay fever",1
+"Rheumatoid factor seropositivity in rheumatoid arthritis",1
+"Celiac disease and Rheumatoid arthritis",1
+"Systemic juvenile idiopathic arthritis",1
+"Thyroid-associated orbitopathy in graves' disease",1
+"Arthritis (juvenile idiopathic)",1
+"Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)",1
+"Vasculitis associated with antineutrophil cytoplasmic antibody reactive to myeloperoxidase",1
+"Antineutrophil cytoplasmic antibody-associated vasculitis",1
+"Lung function (FEV1/FVC) in asthma (dust mite allergen exposure interaction)",1
+"Lung function (FEV1) in asthma (dust mite allergen exposure interaction)",1
+"Erythema nodosum in inflammatory bowel disease",1
+"Pediatric autoimmune diseases",1
+"Lachrymal/Salivary gland lesion in type 1 autoimmune pancreatitis",1
+"Myositis",1
+"Joint damage progression in ACPA-negative rheumatoid arthritis",1
+"Late-onset myasthenia gravis",1
+"Thionamide-induced agranulocytosis in Graves' disease",1
+"Paneth cell defects in Crohn's disease",1
+"Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)",1
+"Immunoglobulin light chain (AL) amyloidosis",1
+"Food allergy (parent-of-origin effect)",1
+"Peanut allergy (parent-of-origin effect)",1
+"Food allergy (maternal genetic effects)",1
+"Peanut allergy (maternal genetic effects)",1
+"ACPA-positive rheumatoid arthritis (smoking interaction)",1
+"Allergic disease (asthma, hay fever and/or eczema) (age of onset)",1
+"Allergic disease (asthma, hay fever and/or eczema) (multivariate analysis)",1
+"Autoimmune traits",1
+"Autoimmune disease and mental disorder",1
+"Interstitial lung diseases in rheumatoid arthritis",1
+"Allergic march (atopic dermatitis to allergic rhinitis)",1
+"Allergic march (atopic dermatitis to asthma)",1
+"Autoimmune thyroid disease",1
+"Asthma (time to event)",1
+"Childhood onset systemic lupus erythematosus",1
+"Ocular sarcoidosis in sarcoidosis",1
+"Type 1 diabetes in high risk HLA genotype individuals (time to event)",1
+"Type 1 diabetes autoantibodies in high risk HLA genotype individuals (time to event)",1
+"Crohn's disease (time to progression)",1
+"Crohn's disease (time to first abdominal surgery)",1
+"Crohn's disease (indolent vs progressive)",1
+"Thiopurine-induced early leukopenia in Crohn's disease",1
+"Childhood asthma with severe exacerbations",1
+"Asthma (toluene diisocyanate-induced)",1
+"Crohn's disease and sarcoidosis (combined)",1
+"Ulcerative colitis or Crohn's disease",1
+"Pulmonary function in asthmatics",1
+"Crohn's disease (time to surgery)",1
+"Crohn's disease (need for surgery)",1
+"Celiac disease or Rheumatoid arthritis",1
+"Vitiligo (non-segmental)",1
+"Insulinoma-associated antigen 2 autoantibody levels in type 1 diabetes",1
+"Gastric parietal cell autoantibody levels in type 1 diabetes",1
+"Thyroid peroxidase autoantibody levels in type 1 diabetes",1
+"Crohn's disease and celiac disease",1
+"Sclerosing cholangitis and ulcerative colitis (combined)",1
+"Crohn's disease and psoriasis",1
+"Oligoclonal band status in multiple sclerosis",1
+"Immunoglobulin G index levels in multiple sclerosis",1
+"Asthma or chronic obstructive pulmonary disease",1
+"Systemic lupus erythematosus and Systemic sclerosis",1
+"Coronary arterial lesions in patients with Kawasaki disease",1
+"Hashimoto thyroiditis versus Graves' disease",1
+"Eosinophilic esophagitis (pediatric)",1
+"Cutaneous psoriasis",1
+"Epstein Barr virus nuclear antigen 1 IgG levels or multiple sclerosis",1
+"Crohn's disease or systemic sclerosis",1
+"Asthma (age of onset)",1
+"Sero-negative rheumatoid arthritis",1
+"Asthma (adult onset)",1
+"Asthma onset (childhood vs adult)",1
+"Crohn's disease vs ulcerative colitis (ordinary least squares (OLS))",1
+"Crohn's disease vs rheumatoid arthritis (ordinary least squares (OLS))",1
+"Adult onset asthma or fasting glucose levels",1
+"Ulcerative colitis vs rheumatoid arthritis (ordinary least squares (OLS))",1
+"Diabetes mellitus (UKB data field 2443)",1
+"Eczema or dermatitis",1
+"ICD10 L40: Psoriasis",1
+"Asthma vs allergic disease",1
+"ICD10 L30: Eczema or dermatitis",1
+"Asthma strict",1
+"ICD10 J45: Asthma",1
+"Hay fever rhinitis or eczema (age of onset) (UKB data field 3761)",1
+"Childhood asthma vs allergic disease",1
+"Allergic disease",1
+"Self-reported childhood asthma in adult smokers",1
+"Psoriasis or type 2 diabetes (trans-disease meta-analysis)",1
+"Psoriasis or type 2 diabetes (trans-disease meta-analysis)(opposite effect)",1
+"Kawasaki disease or immunoglobulin A vasculitis (pleiotropy)",1
+"Autoimmune traits (pleiotropy)",1
+"Fulminant type 1 diabetes",1
+"Asthma (moderate or severe)",1
+"Childhood onset ulcerative colitis",1
+"Severe exacerbations in childhood asthma",1
+"Surgical recurrence in Crohn's disease",1
+"Juvenile rheumatoid arthritis",1
+"Pediatric asthma",1
+"Contact dermatitis",1
+"Autoimmune hepatitis",1
+"Uveitis",1
+"Atopic dermatitis (moderate to severe)",1
+"Early-onset myasthenia gravis",1
+"Systemic vasculitis",1
+"Type 1 diabetes (age at diagnosis)",1
+"Bullous pemphigoid",1
+"Type 1 diabetes with low genetic risk score",1
+"Childhood asthma x sex interaction",1
+"Childhood asthma",1
+"Arthritis (oligoarticular juvenile idiopathic)",1
+"Severe autoimmune type 2 diabetes",1
+"Ulcerative colitis (PheCode 555.2)",1
+"Celiac disease (PheCode 557.1)",1
+"Asthma and eczema",1
+"Alloimmunization response to pregnancy (HLA class I)",1
+"Multiple sclerosis and C-reactive protein levels (pleiotropy)",1
+"Disease-related mortality after unrelated donor allogeneic hematopoietic cell transplantation (donor effect)",1
+"Mortality after unrelated donor allogeneic hematopoietic cell transplantation (recipient effect)",1
+"Mortality after unrelated donor allogeneic hematopoietic cell transplantation (donor-recipient mismatch)",1
+"IgE grass sensitization",1
+"Primary sclerosing cholangitis",1
+"Primary biliary cholangitis",1
+"Liver transplant-free survival in primary sclerosing cholangitis (time to event)",1
+"Response to allopurinol in gout (change in serum uric acid levels)",1
+"Pyoderma gangrenosum in inflammatory bowel disease",1
+"Anti-thyroid peroxidase (TPOAb) and anti-thyroglobulin (TgAb) levels in Hashimoto's thyroiditis",1
+"Anti-thyroid peroxidase (TPOAb) levels in Hashimoto's thyroiditis",1
+"Relapse in treatment-naive multiple sclerosis (time to event)",1
+"Anti-cyclic Citrullinated Peptide Antibody",1
+"Antinuclear antibody levels",1

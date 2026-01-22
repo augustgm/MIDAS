@@ -1,0 +1,124 @@
+"diseases","keep"
+"Hepatitis B vaccine response",1
+"Response to methotrexate in rheumatoid arthritis",1
+"Response to inhaled glucocorticoid treatment in asthma (change in FEV1)",1
+"Methotrexate-induced interstitial lung disease in rheumatoid arthritis",1
+"Serum uric acid levels in response to allopurinol in gout",1
+"Tacrolimus trough concentration in kidney transplant patients",1
+"Sulfasalazine-induced agranulocytosis",1
+"Response to mepolizumab in severe asthma",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (presence of antibodies)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (mean antibody levels)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (area under the curve for the first two years)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (maximum antibody levels)",1
+"Thiopurine-induced leukopenia in inflammatory bowel disease",1
+"Thiopurine-induced leukopenia in inflammatory bowel disease (conditioned on rs116855232)",1
+"Thiopurine-induced severe leukopenia in inflammatory bowel disease",1
+"Thiopurine-induced acute severe leukopenia in inflammatory bowel disease",1
+"Thiopurine-induced alopecia in inflammatory bowel disease",1
+"Thiopurine-induced severe alopecia in inflammatory bowel disease",1
+"Thiopurine-induced pancreatitis in inflammatory bowel disease",1
+"Thiopurine-induced digestive symptoms in inflammatory bowel disease",1
+"Thiopurine-induced acute severe leukopenia in inflammatory bowel disease (conditioned on rs116855232)",1
+"Infliximab-induced mucosal healing in Crohn's disease",1
+"Response to interferon treatment in hepatitis C virus genotype 3",1
+"Response to allopurinol in gout (change in serum uric acid levels)",1
+"Response to adalimumab in hidradenitis suppurativa (abscess and inflammatory nodule count increase)",1
+"Severe prolonged lymphopenia in dimethyl fumarate-treated relapsing-remitting multiple sclerosis",1
+"Moderate or severe prolonged lymphopenia in dimethyl fumarate-treated relapsing-remitting multiple sclerosis",1
+"Response to (pegylated) interferon in HBeAg-negative hepatitis B",1
+"Response to (pegylated) interferon in HBeAG-positive hepatitis B",1
+"Response to (pegylated) interferon in chronic hepatitis B",1
+"Drug-induced liver injury in interferon-beta-treated multiple sclerosis",1
+"Response to hepatitis B vaccine",1
+"Frequency of relapse in mepolizumab-treated eosinophilic granulomatosis with polyangiitis",1
+"Average oral glucocorticoid dose in mepolizumab-treated eosinophilic granulomatosis with polyangiitis",1
+"Accrued duration of remission in mepolizumab-treated eosinophilic granulomatosis with polyangiitis",1
+"Thiopurine-induced myelosuppression in inflammatory bowel disease",1
+"Response to TNF inhibitor in rheumatoid arthritis (erythrocyte sedimentation rate)",1
+"Response to TNF inhibitor in rheumatoid arthritis (change in swollen 28-joint count)",1
+"Response to TNF inhibitor in rheumatoid arthritis (change in patient global heath assessment score)",1
+"Response to TNF inhibitor in rheumatoid arthritis (change in tender 28-joint count)",1
+"Response to TNF inhibitor in rheumatoid arthritis (change in disease activity score)",1
+"Response to inhaled corticosteroid treatment in asthma (change in FEV1)",1
+"Acute urticaria and angioedema (non-steroidal anti-inflammatory drug-induced)",1
+"Asthma (corticosteroid response)",1
+"Immune response to measles-mumps-rubella vaccine",1
+"Response to protease inhibitor treatment in hepatitis c (bilirubin toxicity)",1
+"Response to protease inhibitor treatment in hepatitis c (peak serum total bilirubin levels)",1
+"Response to interferon beta in multiple sclerosis",1
+"Drug-induced liver injury (diclofenac)",1
+"Drug-induced liver injury (nonsteroidal anti-inflammatory drugs)",1
+"Immune response to measles vaccine (measles-specific neutralising antibody titre)",1
+"Immune response to measles vaccine (measles-induced IFN gamma)",1
+"Response to zileuton treatment in asthma (FEV1 change interaction)",1
+"Response to montelukast in asthma (change in FEV1)",1
+"Peginterferon alfa-2a treatment response in chronic hepatitis B infection",1
+"Thiopurine-induced early leukopenia in Crohn's disease",1
+"Meningococcal C IgG concentrations post childhood immunization",1
+"Meningococcal C functional antibody titers post childhood immunization",1
+"Tetanus toxoid IgG concentrations post childhood immunization",1
+"Anti-drug antibodies in autoimmune disease (time to event)",1
+"Response to TNF antagonist treatment",1
+"Response to anti-TNF alpha therapy in inflammatory bowel disease",1
+"Immune response to anthrax vaccine",1
+"Vaccine-related adverse events",1
+"Response to interferon beta therapy",1
+"Response to anti-TNF therapy in rheumatoid arthritis",1
+"Response to tocilizumab in rheumatoid arthritis",1
+"Immune response to smallpox vaccine (IL-6)",1
+"Response to mTOR inhibitor (everolimus)",1
+"Response to mTOR inhibitor (rapamycin)",1
+"Response to TNF-alpha inhibitors in rheumatoid arthritis",1
+"Response to methotrexate in juvenile idiopathic arthritis",1
+"Febrile seizures (MMR vaccine-related)",1
+"Response to thiopurine immunosuppressants in inflammatory bowel disease (pancreatitis) (azathioprine and mercaptopurine)",1
+"Colorectal cancer (aspirin and/or NSAID use interaction)",1
+"Platinum-induced myelosuppression in non-small cell lung cancer",1
+"Response to cyclophosphamide in systemic lupus erythematosus with lupus nephritis",1
+"Glucocorticoid-induced osteonecrosis (time dependent analysis)",1
+"Glucocorticoid-induced osteonecrosis (age 10 years and older)",1
+"Glucocorticoid-induced osteonecrosis",1
+"Adverse response to inhaled corticosteroid treatment x age interaction in asthma",1
+"Anti-adalimumab antibody production in response to treatment in Crohn's disease",1
+"Corticosteroid-induced adrenal suppression (peak cortisol < 350 nmol/L)",1
+"Corticosteroid-induced adrenal suppression (peak cortisol < 500 nmol/L)",1
+"Neutrophil level response to clozapine in treatment-resistant schizophrenia",1
+"Response to cladaribine",1
+"Response to intravenous immunoglobulin treatment in Kawasaki disease",1
+"Asthma exacerbations in inhaled corticosteroid treatment",1
+"Asthma control x inhaled corticosteroid treatment interaction (2df)",1
+"Non-steroidal anti-inflammatory drug-induced enteropathy",1
+"Alanine aminotransferase level after methotrexate initiation in rheumatoid arthritis",1
+"Response to influenza vaccine",1
+"Aortic vascular smooth muscle cell proliferation in response to IL-1 beta",1
+"Response to non-steroidal anti-inflammatory drugs (pain relief efficacy)",1
+"Response to immune checkpoint inhibitors in melanoma (immune-related adverse events)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (presence of antibodies; all treatment preparations)",1
+"Binding antibody response to interferon beta therapy in multiple sclerosis (antibody levels; IFNβ-1b subcutaneous)",1
+"Binding antibody response to interferon beta therapy in multiple sclerosis (antibody levels; IFNβ-1a subcutaneous and intramuscular)",1
+"Binding antibody response to interferon beta therapy in multiple sclerosis (antibody levels; IFNβ-1a subcutaneous)",1
+"Binding antibody response to interferon beta therapy in multiple sclerosis (antibody levels; all treatment preparations)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (antibody titre; IFNβ-1b subcutaneous)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (antibody titre; IFNβ-1a subcutaneous and intramuscular)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (antibody titre; IFNβ-1a subcutaneous)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (antibody titre; all treatment preparations)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (presence of antibodies; IFNβ-1b subcutaneous)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (presence of antibodies; IFNβ-1a subcutaneous and intramuscular)",1
+"Neutralising antibody response to interferon beta therapy in multiple sclerosis (presence of antibodies; IFNβ-1a subcutaneous)",1
+"Response to tofacitinib treatment in rheumatoid arthritis (herpes zoster)(time to event)",1
+"Response to tofacitinib treatment in psoriasis (herpes zoster)(time to event)",1
+"Response to tofacitinib treatment in rheumatoid arthritis (herpes zoster)",1
+"Response to tofacitinib treatment in psoriasis (herpes zoster)",1
+"Response to tofacitinib treatment (herpes zoster)(time to event)",1
+"Response to tofacitinib treatment (herpes zoster)",1
+"B cell lymphocyte profile difference (1 day post influenza vaccination)",1
+"B cell lymphocyte profile difference (7 days post influenza vaccination)",1
+"B cell lymphocyte profile difference (90 days post influenza vaccination)",1
+"Carbamazepine-induced reaction with eosinophilia and systemic symptoms",1
+"dexamethasone sensitivity in B-cell precursor acute lymphoblastic leukaemia",1
+"Event free survival in diffuse large B-cell lymphoma treated with immunochemotherapy",1
+"prednisolone sensitivity in B-cell precursor acute lymphoblastic leukaemia",1
+"T cell lymphocyte profile difference (1 day post influenza vaccination)",1
+"T cell lymphocyte profile difference (7 days post influenza vaccination)",1
+"T cell lymphocyte profile difference (90 days post influenza vaccination)",1
