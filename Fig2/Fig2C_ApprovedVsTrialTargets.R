@@ -40,7 +40,7 @@ assess_target_phase_benchmark = function(pred_agg_test) {
     geom_col() +
     geom_errorbar(mapping = aes(ymin = lower_bound, ymax = upper_bound), linewidth = 1) +
     xlab("Clinical development phase") + ylab ("Mean P(IO target)") + labs(fill = "Target stage") +
-    scale_fill_manual(values = c("NA" = "#548E9E", "Trials" = "#F29B86", "Approved" = "#F3C986")) +
+    scale_fill_manual(values = c("NA" = "#414D6A", "Trials" = "#F29B86", "Approved" = "#F3C986")) +
     theme_bw() +
     theme(text = element_text(size = 18))
     
@@ -49,4 +49,5 @@ assess_target_phase_benchmark = function(pred_agg_test) {
 
 res_k50 = assess_target_phase_benchmark(pred_agg_test = preds)
 res_k50
+
 
