@@ -2,7 +2,7 @@ MIDAS-GIN (CPU & GPU, Py39): Training and Permutation-Importance
 ================================================================
 
 MIDAS  
-2026-01-07
+2026-01-23
 
 Graph neural network training and permutation-importance demos for MIDAS-style data.
 
