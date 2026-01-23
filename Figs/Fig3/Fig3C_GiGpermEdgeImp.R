@@ -7,7 +7,7 @@ library(ggplot2)
 library(ggpubr)
 
 # Read in data
-plot_df = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig3_SourceData.xlsx", 
+plot_df = readxl::read_excel(path = "Fig3_SourceData.xlsx", 
                              sheet = "Fig3C") %>% as.data.frame()
 
 # Density plot
