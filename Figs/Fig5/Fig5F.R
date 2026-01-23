@@ -9,7 +9,7 @@ library(reshape2)
 rm(list = ls())
 
 ## read in data
-ccl4_data = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig5_SourceData.xlsx",
+ccl4_data = readxl::read_excel(path = "Fig5_SourceData.xlsx",
                                sheet = "Fig5F") %>%
   as.data.frame()
 
