@@ -11,12 +11,12 @@ rm(list = ls())
 `%ni%` = Negate(`%in%`)
 
 ## read in model performance
-mod_perf = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig3_SourceData.xlsx", 
+mod_perf = readxl::read_excel(path = "Fig3_SourceData.xlsx", 
                               sheet = "Fig3B") %>%
   as.data.frame()
 
 ## read in permutation results - first need to uncompress Fig3B_permAll.zip
-perm_all = read.csv(file = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig3B_permAll.csv")
+perm_all = read.csv(file = "Fig3B_permAll.csv")
 
 
 ### Define functions ###
