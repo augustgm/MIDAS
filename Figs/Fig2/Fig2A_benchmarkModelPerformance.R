@@ -11,10 +11,10 @@ library(tidyverse)
 rm(list = ls())
 
 ## define path stem 
-path_stem = "C:/Users/Marce/OneDriveUCL/OneDrive - University College London/MBPhD/MIDAS/compareGraphEnsembleTargets/benchmarks/"
+path_stem = ""
 
 ## read data
-preds_all = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig2_SourceData.xlsx",
+preds_all = readxl::read_excel(path = "Fig2_SourceData.xlsx",
                                sheet = "Fig2A") %>%
   as.data.frame()
 
