@@ -17,15 +17,15 @@ des_targs = c("PTPN22", "OSM", "OSMR")
 
 ## read in manually curated pathways
 all_pathways = read.csv(header = T, stringsAsFactors = F, 
-                        file = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/CTD_genes_pathways_reactome.csv")
+                        file = "CTD_genes_pathways_reactome.csv")
 colnames(all_pathways)[1:2] = c("gene", "pathway_name")
 all_pathways$pathway_id_clean = unlist(lapply(strsplit(all_pathways$PathwayID, split = ":"), FUN = function(x) {x[2]}))
 
 ## read in data
-perm_edge_a = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig4_SourceData.xlsx",
+perm_edge_a = readxl::read_excel(path = "Fig4_SourceData.xlsx",
                                  sheet = "Fig4B_PTPN22") %>% as.data.frame()
 
-perm_edge_b = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig4_SourceData.xlsx",
+perm_edge_b = readxl::read_excel(path = "Fig4_SourceData.xlsx",
                                  sheet = "Fig4C_OSM-OSMR") %>% as.data.frame()
 
 perm_edge = rbind(perm_edge_a, perm_edge_b)
@@ -38,11 +38,9 @@ perm_edge = perm_edge %>%
   as.data.frame()
 
 
-
-
 ## read in and create hierarchy from reactome
 pathways = read.table(header = F, stringsAsFactors = F, sep = "\t",
-                      file = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/ReactomePathwayHierarchy.txt",
+                      file = "ReactomePathwayHierarchy.txt",
                       col.names = c("parent", "child"))
 
 ## Tidy names
@@ -50,7 +48,7 @@ perm_edge$pathway_id_clean = unlist(lapply(strsplit(perm_edge$pathway_id, split 
 
 ## Read in pathway names (manually tidied)
 pathway_clean = read.csv(header = T, stringsAsFactors = F, encoding = "UTF-8", 
-                         file = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/AbbrevPathwayNamesClean_OSM_OSMR_PTPN22.csv")
+                         file = "AbbrevPathwayNamesClean_OSM_OSMR_PTPN22.csv")
 
 ## 1 pathway tree per target
 plot_pathway_perm_tree = function(curr_targ) {
