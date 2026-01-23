@@ -10,10 +10,10 @@ library(tidyverse)
 library(ggplot2)
 
 # Read in data
-preds = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig4_SourceData.xlsx",
+preds = readxl::read_excel(path = "Fig4_SourceData.xlsx",
                            sheet = "Fig4A_AllPredictions") %>% as.data.frame()
 
-plot_df = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig4_SourceData.xlsx",
+plot_df = readxl::read_excel(path = "Fig4_SourceData.xlsx",
                              sheet = "Fig4A_Targets") %>% as.data.frame()
 
 unique(preds$label)
