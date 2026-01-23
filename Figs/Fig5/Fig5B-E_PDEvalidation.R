@@ -32,7 +32,7 @@ for (i in 1:length(des_sheet)) {
                                no = gsub(pattern = "CD8", replacement = "CD8_T", x = des_sheet[i])))
   }
   
-  tmp <- readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig5_SourceData.xlsx", 
+  tmp <- readxl::read_excel(path = "Fig5_SourceData.xlsx", 
                             sheet = curr_sheet, na = "N/A") %>% as.data.frame()  
   colnames(tmp)[1] = "Patient_ID"
   tmp$marker = des_sheet[i]
