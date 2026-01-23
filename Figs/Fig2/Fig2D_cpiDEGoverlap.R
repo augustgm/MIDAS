@@ -16,7 +16,7 @@ bladder_str = "Bladder\n(n=142)"
 
 
 ## read in data for random overlaps with DEGs
-plot_df = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig2_SourceData.xlsx",
+plot_df = readxl::read_excel(path = "Fig2_SourceData.xlsx",
                              sheet = "Fig2D_randomOverlapDEGs") %>%
   as.data.frame()
 
@@ -28,7 +28,7 @@ plot_df[plot_df$variable == "Bladder\r\r\n(n=142)", "variable"] = bladder_str
 
 
 ## read in data for MIDAS overlaps with DEGs
-midas_overlap = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig2_SourceData.xlsx",
+midas_overlap = readxl::read_excel(path = "Fig2_SourceData.xlsx",
                                    sheet = "Fig2D_MIDAS200_overlapDEGs") %>%
   as.data.frame()
 
