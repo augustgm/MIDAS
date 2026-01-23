@@ -8,7 +8,7 @@ library(WebGestaltR)
 
 
 # Read in data
-gsea = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig3_SourceData.xlsx",
+gsea = readxl::read_excel(path = "Fig3_SourceData.xlsx",
                           sheet = "Fig3A") %>% as.data.frame()
 colnames(gsea)[colnames(gsea) == "NES"] = "normalizedEnrichmentScore"
 gsea = gsea[order(abs(gsea$normalizedEnrichmentScore), decreasing = T), ]
