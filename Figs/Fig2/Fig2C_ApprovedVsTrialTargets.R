@@ -8,7 +8,7 @@ library(ggpubr)
 library(pROC)
 
 ## Read in predictions
-preds = readxl::read_excel(path = "C:/Users/Marce/OneDrive/Documents/Rscripts-MBPhD/MIDAS/PaperFigures/2025-11-ReviewUpdate/Fig2_SourceData.xlsx",
+preds = readxl::read_excel(path = "Fig2_SourceData.xlsx",
                            sheet = "Fig2C") %>%
   as.data.frame()
 
