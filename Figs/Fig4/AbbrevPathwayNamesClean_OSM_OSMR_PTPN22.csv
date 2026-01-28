@@ -1,0 +1,64 @@
+pathway_id_clean,pathway_name,pathway_name_clean
+R-HSA-1059683,Interleukin-6 signaling,"IL6
+signalling"
+R-HSA-1170546,Prolactin receptor signaling,"Prolactin receptor
+signalling"
+R-HSA-1266695,Interleukin-7 signaling,"IL7
+signalling"
+R-HSA-1280215,Cytokine Signaling in Immune system,"Cytokine signalling
+immune system"
+R-HSA-1280218,Adaptive Immune System,"Adaptive
+immune system"
+R-HSA-168249,Innate Immune System,"Innate
+immune system"
+R-HSA-168256,Immune System,Immune System
+R-HSA-198933,Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell,"Lymphoid-other
+immunoregulatory
+interactions"
+R-HSA-202403,TCR signaling,TCR signalling
+R-HSA-202424,Downstream TCR signaling,"Downstream
+TCR signalling"
+R-HSA-202427,Phosphorylation of CD3 and TCR zeta chains,"CD3 and TCR zeta
+phosphorylation"
+R-HSA-202430,Translocation of ZAP-70 to Immunological synapse,"ZAP-70 translocates
+to immune synapse"
+R-HSA-202433,Generation of second messenger molecules,2nd messenger generation
+R-HSA-2132295,MHC class II antigen presentation,MHCII Ag presentation
+R-HSA-388841,Costimulation by the CD28 family,"Costimulation
+by CD28 family"
+R-HSA-392517,Rap1 signalling,Rap1 signalling
+R-HSA-446652,Interleukin-1 family signaling,"IL1 family
+signalling"
+R-HSA-447115,Interleukin-12 family signaling,"IL12 family
+signalling"
+R-HSA-448424,Interleukin-17 signaling,IL17 signalling
+R-HSA-449147,Signaling by Interleukins,IL signalling
+R-HSA-449836,Other interleukin signaling,"Other IL
+signalling"
+R-HSA-451927,Interleukin-2 family signaling,"IL2 family
+signalling"
+R-HSA-512988,"Interleukin-3, Interleukin-5 and GM-CSF signaling","IL3, IL5 & GM-CSF
+signalling"
+R-HSA-5668541,TNFR2 non-canonical NF-kB pathway,"TNFR2 non-canonical
+NFkB pathway"
+R-HSA-6783589,Interleukin-6 family signaling,"IL6 family
+signalling"
+R-HSA-6783783,Interleukin-10 signaling,IL10 signalling
+R-HSA-6785807,Interleukin-4 and 13 signaling,"IL4 & IL13
+signalling"
+R-HSA-6788467,IL-6-type cytokine receptor ligand interactions,"IL6-type cytokine
+receptor-ligand
+interactions"
+R-HSA-8851680,Butyrophilin (BTN) family interactions,"BTN family
+interactions"
+R-HSA-8854691,Interleukin-20 family signaling,"IL20 family
+signalling"
+R-HSA-913531,Interferon Signaling,IFN signalling
+R-HSA-9607240,FLT3 Signaling,FLT3 signalling
+R-HSA-9674555,Signaling by CSF3 (G-CSF),CSF3 signalling
+R-HSA-9680350,Signaling by CSF1 (M-CSF) in myeloid cells,"Meyloid CSF1
+signalling"
+R-HSA-982772,Growth hormone receptor signaling,"GH receptor
+signalling"
+R-HSA-983169,Class I MHC mediated antigen processing & presentation,MHCI APP
+R-HSA-983705,Signaling by the B Cell Receptor (BCR),BCR signalling
