@@ -14,8 +14,7 @@ rm(list = ls())
 path_stem = ""
 
 ## read in model performance
-mod_perf = readxl::read_excel(path = paste0(path_stem, "Fig3_SourceData.xlsx"), 
-                              sheet = "Fig3B") %>%
+mod_perf = readxl::read_excel(path = paste0(path_stem, "Fig3B_modelPerformance.xlsx")) %>%
   as.data.frame()
 
 ## read in permutation results - first need to uncompress Fig3B_permAll.zip
