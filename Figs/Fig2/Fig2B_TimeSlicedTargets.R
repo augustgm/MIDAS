@@ -9,8 +9,11 @@ library(ggpubr)
 
 rm(list = ls())
 
+## define path stem 
+path_stem = ""
+
 ## read in data - using this allows to do the whole sampling to get the answer - for just plotting from source data see below
-predictions = readxl::read_excel(path = "Fig2_SourceData.xlsx",
+predictions = readxl::read_excel(path = paste0(path_stem, "Fig2_SourceData.xlsx"),
                                  sheet = "Fig2B") %>% as.data.frame()
 
 ## randomly sample
