@@ -5,15 +5,14 @@ library(readxl)
 library(tidyverse)
 library(ggplot2)
 
-library(readxl)
-library(tidyverse)
-library(ggplot2)
+## define path stem 
+path_stem = ""
 
 # Read in data
-preds = readxl::read_excel(path = "Fig4_SourceData.xlsx",
+preds = readxl::read_excel(path = paste0(path_stem, "Fig4_SourceData.xlsx"),
                            sheet = "Fig4A_AllPredictions") %>% as.data.frame()
 
-plot_df = readxl::read_excel(path = "Fig4_SourceData.xlsx",
+plot_df = readxl::read_excel(path = paste0(path_stem, "Fig4_SourceData.xlsx"),
                              sheet = "Fig4A_Targets") %>% as.data.frame()
 
 unique(preds$label)
@@ -26,8 +25,8 @@ p1 = ggplot(data = preds, mapping = aes(x = mean_prob, y = label)) +
   ggridges::geom_density_ridges(mapping = aes(fill = label),
                                 quantile_lines = F, quantile_fun = function(mean_prob, ...) {median(mean_prob)},
                                 scale = 5, alpha = 0.9, bandwidth = 0.04) +
-  geom_point(data = plot_df, mapping = aes(x = mean_prob, y = label, color = target_stat), shape = 8, size = 5) +
-  ggrepel::geom_label_repel(data = plot_df, mapping = aes(x = mean_prob, y = label, label = Gene)) +
+  geom_point(data = plot_df, mapping = aes(x = mean_prob, y = 1.5, color = target_stat), shape = 8, size = 5) +
+  ggrepel::geom_label_repel(data = plot_df, mapping = aes(x = mean_prob, y = 1.5, label = Gene)) +
   scale_fill_manual(values = c("clinically\nunexplored" = "#414b69", "Known IO\ntargets" = "#eec2a4")) +
   scale_color_manual(values = c("IO\ncandidate" = "#F4B23D")) +
   labs(x = "P(IO target)", fill = "Clinical status", color = "") +
