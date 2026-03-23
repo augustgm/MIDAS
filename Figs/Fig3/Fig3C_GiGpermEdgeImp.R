@@ -6,8 +6,11 @@ library(readxl)
 library(ggplot2)
 library(ggpubr)
 
+## define path stem 
+path_stem = ""
+
 # Read in data
-plot_df = readxl::read_excel(path = "Fig3_SourceData.xlsx", 
+plot_df = readxl::read_excel(path = paste0(path_stem, "Fig3_SourceData.xlsx"), 
                              sheet = "Fig3C") %>% as.data.frame()
 
 # Density plot
