@@ -7,8 +7,10 @@ library(fmsb)
 
 rm(list = ls())
 
-
 `%ni%` = Negate(`%in%`)
+
+## define path stem 
+path_stem = ""
 
 # define treatment to plot
 des_cond = "PTPN22i"  # PTPN22i, aOSM
@@ -32,7 +34,7 @@ for (i in 1:length(des_sheet)) {
                                no = gsub(pattern = "CD8", replacement = "CD8_T", x = des_sheet[i])))
   }
   
-  tmp <- readxl::read_excel(path = "Fig5_SourceData.xlsx", 
+  tmp <- readxl::read_excel(path = paste0(path_stem, "Fig5_SourceData.xlsx"), 
                             sheet = curr_sheet, na = "N/A") %>% as.data.frame()  
   colnames(tmp)[1] = "Patient_ID"
   tmp$marker = des_sheet[i]
