@@ -14,7 +14,7 @@ rm(list = ls())
 path_stem = ""
 
 ## read data
-preds_all = readxl::read_excel(path = "Fig2_SourceData.xlsx",
+preds_all = readxl::read_excel(path = paste0(path_stem, "Fig2_SourceData.xlsx"),
                                sheet = "Fig2A") %>%
   as.data.frame()
 
