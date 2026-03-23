@@ -10,13 +10,16 @@ rm(list = ls())
 
 `%ni%` = Negate(`%in%`)
 
+## define path stem 
+path_stem = ""
+
 ## read in model performance
-mod_perf = readxl::read_excel(path = "Fig3_SourceData.xlsx", 
+mod_perf = readxl::read_excel(path = paste0(path_stem, "Fig3_SourceData.xlsx"), 
                               sheet = "Fig3B") %>%
   as.data.frame()
 
 ## read in permutation results - first need to uncompress Fig3B_permAll.zip
-perm_all = read.csv(file = "Fig3B_permAll.csv")
+perm_all = read.csv(file = paste0(path_stem, "Fig3B_permAll.csv"))
 
 
 ### Define functions ###
