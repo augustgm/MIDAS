@@ -6,9 +6,11 @@ library(tidyverse)
 library(ggplot2)
 library(WebGestaltR)
 
+## define path stem 
+path_stem = ""
 
 # Read in data
-gsea = readxl::read_excel(path = "Fig3_SourceData.xlsx",
+gsea = readxl::read_excel(path = paste0(path_stem, "Fig3_SourceData.xlsx"),
                           sheet = "Fig3A") %>% as.data.frame()
 colnames(gsea)[colnames(gsea) == "NES"] = "normalizedEnrichmentScore"
 gsea = gsea[order(abs(gsea$normalizedEnrichmentScore), decreasing = T), ]
