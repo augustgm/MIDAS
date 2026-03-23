@@ -104,7 +104,7 @@ benchmarks[benchmarks$padj >= 0.05, "Significance"] = "ns"
 benchmarks$padj_str <- paste0("FDR=", sprintf("%.3f", round(benchmarks$padj, digits = 3)))
 benchmarks[benchmarks$padj_str == "FDR=0.000", "padj_str"] <- "<0.001"
 
-benchmarks = rbind(data.frame(alt_methods = "GIN",  # need to add the other columns here
+benchmarks = rbind(data.frame(alt_methods = "MIDAS GIN", 
                               roc_auc = roc_gr$auc, 
                               lowerCI = roc_gr$ci[1], 
                               upperCI = roc_gr$ci[3], 
