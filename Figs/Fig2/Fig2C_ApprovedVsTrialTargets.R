@@ -7,8 +7,11 @@ library(ggplot2)
 library(ggpubr)
 library(pROC)
 
+## define path stem 
+path_stem = ""
+
 ## Read in predictions
-preds = readxl::read_excel(path = "Fig2_SourceData.xlsx",
+preds = readxl::read_excel(path = paste0(path_stem, "Fig2_SourceData.xlsx"),
                            sheet = "Fig2C") %>%
   as.data.frame()
 
