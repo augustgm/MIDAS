@@ -39,6 +39,19 @@ for (i in 1:length(des_sheet)) {
   colnames(tmp)[1] = "Patient_ID"
   tmp$marker = des_sheet[i]
   rad = rbind(rad, tmp)
+
+  ## compute p-values
+  curr_marker = unique(tmp$marker)
+  colnames(tmp)[colnames(tmp) == "PTPN-22i"] = "PTPN22i"
+  curr_df = reshape2::melt(tmp[tmp$Patient_ID != "p", c("Patient_ID", "UT", des_cond)], 
+                           id.vars = c("Patient_ID"), variable.name = "condition")
+  if (any(is.na(curr_df$value))) {
+    excl_pats = unique(curr_df[(is.na(curr_df$value)), "Patient_ID"])
+    curr_df = curr_df %>% filter(Patient_ID %ni% excl_pats)
+  }
+  test_obj = wilcox.test(formula = value ~ condition, data = curr_df, 
+                         paired = T)
+  print(paste0(des_cond, ": ", curr_marker, " p=", test_obj$p.value))
 }
 rad = rad %>% filter(Patient_ID != "p")  # excluding p-values
 str(rad)
