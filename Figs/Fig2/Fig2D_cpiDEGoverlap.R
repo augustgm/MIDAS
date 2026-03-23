@@ -7,6 +7,8 @@ library(ggplot2)
 
 rm(list = ls())
 
+## define path stem 
+path_stem = ""
 
 ## define variables 
 pan_str = "Pan\n(n=658)"
@@ -16,7 +18,7 @@ bladder_str = "Bladder\n(n=142)"
 
 
 ## read in data for random overlaps with DEGs
-plot_df = readxl::read_excel(path = "Fig2_SourceData.xlsx",
+plot_df = readxl::read_excel(path = paste0(path_stem, "Fig2_SourceData.xlsx"),
                              sheet = "Fig2D_randomOverlapDEGs") %>%
   as.data.frame()
 
@@ -28,7 +30,7 @@ plot_df[plot_df$variable == "Bladder\r\r\n(n=142)", "variable"] = bladder_str
 
 
 ## read in data for MIDAS overlaps with DEGs
-midas_overlap = readxl::read_excel(path = "Fig2_SourceData.xlsx",
+midas_overlap = readxl::read_excel(path = paste0(path_stem, "Fig2_SourceData.xlsx"),
                                    sheet = "Fig2D_MIDAS200_overlapDEGs") %>%
   as.data.frame()
 
@@ -60,7 +62,7 @@ pvals[pvals$variable == "Pan", "variable"] = pan_str
 
 ## prepare for plotting
 plot_df$variable = factor(plot_df$variable, 
-                          levels = c(pan_str, lung_str, bladder_str, renal_str))
+                          levels = c(lung_str, pan_str, bladder_str, renal_str))
 
 pvals$variable = factor(pvals$variable, levels = levels(plot_df$variable))
 
