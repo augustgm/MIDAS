@@ -8,8 +8,11 @@ library(reshape2)
 
 rm(list = ls())
 
+## define path stem 
+path_stem = ""
+
 ## read in data
-ccl4_data = readxl::read_excel(path = "Fig5_SourceData.xlsx",
+ccl4_data = readxl::read_excel(path = paste0(path_stem, "Fig5_SourceData.xlsx"),
                                sheet = "Fig5F") %>%
   as.data.frame()
 
