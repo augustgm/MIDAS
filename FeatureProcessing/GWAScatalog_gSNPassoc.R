@@ -21,11 +21,11 @@ auto_im <- c("Addison's disease", "Ankylosing spondylitis", "Autoimmune", "Behce
              "Rheumatoid arthritis", "rheumatoid arthritis", "Raynaud's phenomenon", "Reiter's disease", "Sarcoidosis", "gren's syndrome$", "Sympathetic ophthalmia", 
              "Systemic lupus erythematosus", "Systemic scleroderma", "Ulcerative colitis", "Vitiligo", "Eosinophilic granulomatosis with polyangiitis",
              "Systemic seropositive rheumatic diseases", "Juvenile idiopathic arthritis", "Uveitis", "Alloimmunization", "Membranous nephropathy",
-             "juvenile idiopathic", "Eczema", "Eosinophilic esophagitis", "Food allergy", "Food antigen IgG levels", "Hay fever and/or eczema", "Hydrolysed wheat protein allergy",  # taken from inspecting the unique disease traits
-             "Idiopathic inflammatory myopathy", "IgA nephropathy", "Immunoglobulin A vasculitis", "amyloidosis", "Obstetric antiphospholipid syndrome",  # taken from inspecting the unique disease traits
-             "Ocular sarcoidosis", "Peanut allergy", "Penicillin allergy", "Recalcitrant atopic dermatitis", "Relapse in multiple sclerosis", "Seborrheic dermatitis", "Systemic sclerosis",  # taken from inspecting the unique disease traits
+             "juvenile idiopathic", "Eczema", "Eosinophilic esophagitis", "Food allergy", "Food antigen IgG levels", "Hay fever and/or eczema", "Hydrolysed wheat protein allergy", 
+             "Idiopathic inflammatory myopathy", "IgA nephropathy", "Immunoglobulin A vasculitis", "amyloidosis", "Obstetric antiphospholipid syndrome", 
+             "Ocular sarcoidosis", "Peanut allergy", "Penicillin allergy", "Recalcitrant atopic dermatitis", "Relapse in multiple sclerosis", "Seborrheic dermatitis", "Systemic sclerosis", 
              "Type 1 diabetes", "Vogt-Koyanagi-Harada syndrome", "Atopic dermatitis", "Contact dermatitis", "Allergic", "allergic",
-             "vasculitis", "Vasculitis", "asthma")  # taken from inspecting the unique disease traits
+             "vasculitis", "Vasculitis", "asthma")  
 
 auto_im_dis = data.frame(diseases = grep(paste0(auto_im, collapse = "|"), a$diseases, ignore.case = T, value = T))
 length(unique(auto_im_dis$diseases)) == nrow(auto_im_dis)  # TRUE
@@ -38,20 +38,20 @@ auto_im_dis = read.csv(stringsAsFactors = F, header = T, file = "autoImmune_alle
 #### Determine immune phenotypes ####
 immune_phenotypes = c("Anti-Epstein-Barr virus nuclear antigen",
                       "Basophil count", "Basophil percentage of granulocytes", "Basophil percentage of white cells", "C-reactive protein",
-                      "C-X-C motif chemokine 10", "Cerebrospinal fluid immune biomarker levels",  # CSF immune biomarkers may need to be removed
+                      "C-X-C motif chemokine 10", "Cerebrospinal fluid immune biomarker levels",
                       "cytokine", "immunoglobulin", "complement", "CXC", "CCL", "CCR", "Ig", "IL", "CD",
-                      "Cytomegalovirus antibody response", "E-selectin",  # E-selectin = CD26E = leukocyte-endothelial cell adhesion molecule 2 and is expressed only on endothelial cells activated by cytokines. important in inflammation  
+                      "Cytomegalovirus antibody response", "E-selectin", 
                       "Eosinophil counts", "Epstein-Barr virus immune response", 
                       "lymphocyte", "monocyte", "macrophage", "granulocyte", "basophil", "eosinophil", "natural killer", "leukocyte", "dendritic", 
                       "neutrophil", "White blood", "cell", "myeloid", "lymphoid", "TNF", "antibody",
-                      "Ferritin", "Fibrinogen", "Gamma glutamyl transferase", ## GGT levels here as they can be a marker of hepatic inflammation
+                      "Ferritin", "Fibrinogen", "Gamma glutamyl transferase", 
                       "Hepatitis B vaccine response", "HIV-1 susceptibility",
                       "Interleukin", "Mastocytosis", "interferon-related traits", "Interferon gamma levels", "Interferon gamma-induced protein 10 levels",                                                                                                       
                       "Monokine induced by gamma interferon levels",
-                      "Matrix metalloproteinase", "MHC class I polypeptide-related sequence A", "Monocyte chemoattractant protein-1",  # MMP8 levels is produced by neutrophils and associated with many inflammatory conditions
+                      "Matrix metalloproteinase", "MHC class I polypeptide-related sequence A", "Monocyte chemoattractant protein-1", 
                       "Platelet count", "Resistin", "Serum alkaline phosphatase levels",
-                      "Serum immune biomarker levels", "Serum sclerostin levels", "Sphingomyelin",  # hits for sphingolipid being inflammatory on google
-                      "Tumor necrosis factor receptor II", "Uridine levels")  # PMID: 26369416 for uridine 
+                      "Serum immune biomarker levels", "Serum sclerostin levels", "Sphingomyelin",  
+                      "Tumor necrosis factor receptor II", "Uridine levels")  
 
 imm_phen_dis = data.frame(diseases = unique(c(grep(paste0(immune_phenotypes[!(immune_phenotypes %in% c("Ig", "IL", "CD", "CCL", "CCR"))], collapse = "|"), a$diseases, ignore.case = T, value = T),
                                               grep(paste0(c("Ig", "IL", "CD", "CCL", "CCR"), collapse = "|"), a$diseases, ignore.case = F, value = T),
