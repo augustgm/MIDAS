@@ -17,9 +17,6 @@ sample_info = read_excel("Bulik-Sullivan_supplData1_sample_characteristics_ms_ng
 # Mapped Ensembl IDs to HGNC symbols 
 rna_expression = read.csv(file = "Bulik-Sullivan_RNA_expression.csv", header = T, stringsAsFactors = F)
 
-## Obtain sample level information
-cancer_samples = sample_info[!(sample_info$`Tissue Specimen Type` %in% c("Normal", "Adjacent Normal")), "paper_sample_id"]
-
 ## Melt df to get column of each patients' HLA type
 num_epitopes_per_pat = reshape2::melt(sample_info, measure.vars = c("A1", "A2", "B1", "B2", "C1", "C2"), 
                                       variable.name = "HLA_allele")
