@@ -46,7 +46,7 @@ assess_target_phase_benchmark = function(pred_agg_test) {
     # geom_text(mapping = aes(x = 2, y = 1.25), label = paste0("Kruskal-Wallis, p " , 
     #                                                          ifelse(test = ks_res$p.value < 2.2e-16, yes = "< 2.2e-16", 
     #                                                                 no = paste0(" = ", signif(ks_res$p.value, 3))))) +
-    # geom_text(mapping = aes(x = 1.5, y = 1.1), label = paste0("Mann-Whitney U, p = ", wilcox_res$p.value)) +
+    # geom_text(mapping = aes(x = 1.5, y = 1.1), label = paste0("Mann-Whitney U, p = ", signif(wilcox_res$p.value, 3))) +
     xlab("Clinical development phase") + ylab ("Mean P(IO target)") + labs(fill = "Target stage") +
     scale_fill_manual(values = c("NA" = "#414D6A", "Trials" = "#F29B86", "Approved" = "#F3C986")) +
     theme_bw() +
