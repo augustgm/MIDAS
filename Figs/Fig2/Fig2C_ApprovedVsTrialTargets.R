@@ -22,8 +22,9 @@ assess_target_phase_benchmark = function(pred_agg_test) {
   print(ks_res)
   print(ks_res$p.value)
   print("")
-  print(wilcox.test(formula = mean_prob ~ appr_vs_clin_vs_non, data = pred_agg_test %>% filter(appr_vs_clin_vs_non != "NA")))
-      
+  wilcox_res = wilcox.test(formula = mean_prob ~ appr_vs_clin_vs_non, data = pred_agg_test %>% filter(appr_vs_clin_vs_non != "NA"))
+  print(wilcox_res)
+  
   ## aggregate for plot 
   plot_df = pred_agg_test %>%
     group_by(appr_vs_clin_vs_non) %>%
@@ -42,6 +43,10 @@ assess_target_phase_benchmark = function(pred_agg_test) {
   p1 = ggplot(data = plot_df, mapping = aes(x = appr_vs_clin_vs_non, y = mean_proba, fill = appr_vs_clin_vs_non)) +
     geom_col() +
     geom_errorbar(mapping = aes(ymin = lower_bound, ymax = upper_bound), linewidth = 1) +
+    # geom_text(mapping = aes(x = 2, y = 1.25), label = paste0("Kruskal-Wallis, p " , 
+    #                                                          ifelse(test = ks_res$p.value < 2.2e-16, yes = "< 2.2e-16", 
+    #                                                                 no = paste0(" = ", signif(ks_res$p.value, 3))))) +
+    # geom_text(mapping = aes(x = 1.5, y = 1.1), label = paste0("Mann-Whitney U, p = ", wilcox_res$p.value)) +
     xlab("Clinical development phase") + ylab ("Mean P(IO target)") + labs(fill = "Target stage") +
     scale_fill_manual(values = c("NA" = "#414D6A", "Trials" = "#F29B86", "Approved" = "#F3C986")) +
     theme_bw() +
