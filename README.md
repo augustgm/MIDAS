@@ -13,10 +13,9 @@ This makes it clear **where each part of the pipeline lives** and how to reprodu
 
 ## Paper
 
-This code allows for the reproduction of the results published in:
+This code allows for the reproduction of the results published in Nature Machine Intelligence:
     
-https://www.researchsquare.com/article/rs-5499857/v1
-    
+https://doi.org/10.1038/s42256-026-01201-3    
 
 The demo data frames provided here follow a similar structure to the data used in 
 the paper.
